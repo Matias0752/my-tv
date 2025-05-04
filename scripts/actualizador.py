@@ -1,89 +1,77 @@
 #!/usr/bin/env python3
-# 📺 Lista M3U para Canales Chilenos - IPTV
-
-import requests
-import os
+import shutil
 import logging
 from pathlib import Path
+from datetime import datetime
+from .telegram_notifier import TelegramNotifier, send_file
 
 # Configuración
-PLAYLIST_PATH = Path('canales_chile.m3u')
-CHILE_SOURCES = [
-    "https://raw.githubusercontent.com/ivantapia882/Free_M3U/main/M3U/Chile.m3u",
-    "https://iptv-org.github.io/iptv/countries/cl.m3u",
-    "https://raw.githubusercontent.com/ruvelro/TV-Online/master/M3U/Chile.m3u"
-]
+CONFIG = {
+    'source_dir': Path("mis_canales"),
+    'output_file': Path("canales_chile.m3u"),
+    'telegram': {
+        'token': "TU_TOKEN_BOT",  # Reemplázalo
+        'chat_id': "TU_CHAT_ID"   # Reemplázalo
+    }
+}
 
-# Canales manuales de respaldo (ejemplos)
-BACKUP_CHANNELS = """
-#EXTM3U
-#EXTINF:-1 tvg-id="TVN" tvg-name="TVN" tvg-logo="https://i.imgur.com/xyz123.png",TVN
-https://univision-ott-live.akamaized.net/tvn_hls/chunklist.m3u8
-#EXTINF:-1 tvg-id="Mega" tvg-name="Mega" tvg-logo="https://i.imgur.com/abc456.png",Mega
-https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
-#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevisión",Chilevisión
-https://live.chilevision.cl/stream/stream.m3u8
-"""
-
-def setup_logger():
+def setup():
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.StreamHandler()]
+        handlers=[
+            logging.FileHandler("m3u_updater.log"),
+            logging.StreamHandler()
+        ]
     )
     return logging.getLogger(__name__)
 
-logger = setup_logger()
+def get_latest_m3u(source_dir):
+    m3u_files = list(source_dir.glob("*.m3u*"))
+    if not m3u_files:
+        raise FileNotFoundError(f"No se encontraron archivos .m3u en {source_dir}")
+    return max(m3u_files, key=lambda f: f.stat().st_mtime)
 
-def fetch_chile_playlist():
-    """Obtiene listas M3U de fuentes chilenas"""
-    for source in CHILE_SOURCES:
-        try:
-            response = requests.get(source, timeout=10)
-            response.raise_for_status()
-            
-            # Filtra solo canales chilenos (por si la lista es mixta)
-            content = "\n".join(
-                line for line in response.text.split('\n') 
-                if 'tvg-country="CL"' in line or 'tvg-id="CL_' in line or not line.startswith('#EXT')
-            )
-            
-            return content or response.text  # Devuelve filtrado o original
-            
-        except Exception as e:
-            logger.warning(f"Fuente {source} falló: {str(e)}")
-    return None
+def generate_report(input_file, output_file):
+    with open(input_file) as f:
+        line_count = sum(1 for line in f if line.strip())
+    
+    return f"""📡 <b>Actualización Lista IPTV</b>
+    
+📅 <i>{datetime.now().strftime('%d/%m/%Y %H:%M')}</i>
+📂 <b>Archivo fuente:</b> {input_file.name}
+📝 <b>Canales totales:</b> {line_count//2}
+📦 <b>Tamaño generado:</b> {output_file.stat().st_size/1024:.1f} KB"""
 
-def save_playlist(content):
-    """Guarda la playlist con validación"""
+def main():
+    logger = setup()
+    notifier = TelegramNotifier(CONFIG['telegram']['token'], CONFIG['telegram']['chat_id'])
+    
     try:
-        with open(PLAYLIST_PATH, 'w', encoding='utf-8') as f:
-            f.write(content)
+        logger.info("=== INICIANDO ACTUALIZACIÓN ===")
+        latest_m3u = get_latest_m3u(CONFIG['source_dir'])
         
-        # Verificación
-        line_count = len(content.split('\n'))
-        logger.info(f"Playlist guardada con {line_count} líneas")
-        return True
+        # Copiar archivo
+        shutil.copy2(latest_m3u, CONFIG['output_file'])
+        logger.info(f"Archivo copiado: {latest_m3u} → {CONFIG['output_file']}")
+        
+        # Generar reporte
+        report = generate_report(latest_m3u, CONFIG['output_file'])
+        logger.info(report)
+        
+        # Notificar
+        notifier.send(report)
+        send_file(
+            CONFIG['telegram']['token'],
+            CONFIG['telegram']['chat_id'],
+            CONFIG['output_file']
+        )
         
     except Exception as e:
-        logger.error(f"Error guardando playlist: {str(e)}")
-        return False
+        error_msg = f"❌ <b>ERROR:</b> {str(e)}"
+        logger.error(error_msg)
+        notifier.send(error_msg)
+        raise
 
-if __name__ == '__main__':
-    logger.info("=== Obteniendo canales chilenos ===")
-    
-    # 1. Intenta con fuentes en línea
-    playlist = fetch_chile_playlist()
-    
-    # 2. Si falla, usa canales de respaldo
-    if not playlist:
-        logger.warning("Usando lista de respaldo")
-        playlist = BACKUP_CHANNELS
-    
-    # 3. Guarda y verifica
-    if save_playlist(playlist):
-        logger.info("✅ Proceso completado")
-        exit(0)
-    else:
-        logger.error("❌ Fallo crítico")
-        exit(1)
+if __name__ == "__main__":
+    main()
