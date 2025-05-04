@@ -1,0 +1,27 @@
+name: Update M3U Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Se ejecuta todos los días a medianoche (UTC)
+  workflow_dispatch:      # Permite ejecutarlo manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run update script
+        run: python scripts/update_playlist.py
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add canales.m3u
+          git commit -m "🔄 Actualización automática de M3U"
+          git push
