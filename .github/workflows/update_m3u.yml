@@ -2,7 +2,7 @@ name: Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Ejecuta cada 6 horas (ajusta según necesites)
+    - cron: '0 */6 * * *'  # Ejecuta cada 6 horas
   workflow_dispatch:        # Permite ejecución manual
 
 jobs:
@@ -11,6 +11,8 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Importante para el historial completo
         
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -27,21 +29,18 @@ jobs:
         run: python scripts/update_playlist.py
         
       - name: Commit and push changes
-  env:
-    GH_TOKEN: ${{ github.token }}
-  run: |
-    # Configuración básica de Git
-    git config --global user.name "GitHub Actions"
-    git config --global user.email "actions@github.com"
-    
-    # Obtiene los últimos cambios
-    git pull --rebase origin main
-    
-    # Agrega los cambios
-    git add canales.m3u
-    
-    # Hace el commit
-    git commit -m "🔄 Actualización automática M3U [skip ci]"
-    
-    # Hace push forzado para evitar conflictos
-    git push origin HEAD:main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git pull --rebase
+          git add canales.m3u
+          
+          # Verifica si hay cambios para commitear
+          if git diff-index --quiet HEAD --; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "🔄 Actualización automática M3U [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
