@@ -1,63 +1,64 @@
-name: Update M3U Playlist
+#!/usr/bin/env python3
+# 📺 IPTV M3U Playlist Updater - VERSIÓN FUNCIONAL
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'  # Cada 6 horas
-  workflow_dispatch:
+import requests
+import os
+import logging
+from pathlib import Path
+from datetime import datetime
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ github.workspace }}
+# Configuración
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+PLAYLIST_PATH = Path('canales.m3u')  # Se creará en la raíz del repositorio
+
+# Configurar logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
+
+def get_pluto_channels():
+    """Obtiene canales de Pluto TV API"""
+    try:
+        response = requests.get(
+            'https://api.pluto.tv/v3/channels',
+            timeout=15
+        )
+        response.raise_for_status()
+        return response.json().get('data', [])
+    except Exception as e:
+        logger.error(f'Error al obtener canales: {e}')
+        return []
+
+def generate_m3u():
+    """Genera archivo M3U"""
+    channels = get_pluto_channels()
+    if not channels:
+        raise ValueError('No se obtuvieron canales')
+    
+    m3u_content = ['#EXTM3U']
+    
+    for channel in channels:
+        channel_id = channel.get('_id', '')
+        name = channel.get('name', 'Sin nombre')
+        url = f'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{channel_id}/master.m3u8?deviceId=web'
         
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Historial completo para Git
-          
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          
-      - name: Install dependencies
-        run: pip install requests
-          
-      - name: Run updater
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GITHUB_WORKSPACE: ${{ github.workspace }}
-        run: |
-          echo "📍 Directorio de trabajo: $GITHUB_WORKSPACE"
-          python scripts/update_playlist.py
-          
-          # Verificación estricta
-          if [ ! -f "canales.m3u" ]; then
-            echo "❌ Error: Archivo M3U no generado"
-            ls -la
-            exit 1
-          fi
-          
-          echo "✅ Archivo generado correctamente"
-          head -n 5 canales.m3u  # Muestra muestra del contenido
-          
-      - name: Commit changes
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          
-          # Solo commit si hay cambios reales
-          if git diff --quiet --exit-code; then
-            echo "🟢 No hay cambios para commitear"
-          else
-            git add canales.m3u
-            git commit -m "🔄 Actualización M3U [skip ci]"
-            git pull --rebase
-            git push
-            echo "✅ Cambios subidos correctamente"
-          fi
+        m3u_content.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}",{name}')
+        m3u_content.append(url)
+    
+    # Guardar archivo
+    with open(PLAYLIST_PATH, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(m3u_content))
+    
+    logger.info(f'Playlist generada con {len(channels)} canales')
+
+if __name__ == '__main__':
+    try:
+        generate_m3u()
+    except Exception as e:
+        logger.error(f'Error fatal: {e}')
+        exit(1)
+ 
