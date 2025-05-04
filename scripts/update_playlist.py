@@ -6,8 +6,8 @@ from datetime import datetime
 # ========================
 # 🔒 CONFIGURACIÓN (EDITAR)
 # ========================
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "7912133661:AAHXunq3ABrjYO-8ZvE5HZvDXRkuqdcooT0")  # Usar Secrets en producción
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6117213267")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 PLAYLIST_NAME = "canales.m3u"
 LOG_FILE = "iptv_updater.log"
 
