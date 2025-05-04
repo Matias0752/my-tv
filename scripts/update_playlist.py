@@ -1,64 +1,89 @@
 #!/usr/bin/env python3
-# 📺 IPTV M3U Playlist Updater - VERSIÓN FUNCIONAL
+# 📺 Lista M3U para Canales Chilenos - IPTV
 
 import requests
 import os
 import logging
 from pathlib import Path
-from datetime import datetime
 
 # Configuración
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-PLAYLIST_PATH = Path('canales.m3u')  # Se creará en la raíz del repositorio
+PLAYLIST_PATH = Path('canales_chile.m3u')
+CHILE_SOURCES = [
+    "https://raw.githubusercontent.com/ivantapia882/Free_M3U/main/M3U/Chile.m3u",
+    "https://iptv-org.github.io/iptv/countries/cl.m3u",
+    "https://raw.githubusercontent.com/ruvelro/TV-Online/master/M3U/Chile.m3u"
+]
 
-# Configurar logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.StreamHandler()]
-)
-logger = logging.getLogger(__name__)
+# Canales manuales de respaldo (ejemplos)
+BACKUP_CHANNELS = """
+#EXTM3U
+#EXTINF:-1 tvg-id="TVN" tvg-name="TVN" tvg-logo="https://i.imgur.com/xyz123.png",TVN
+https://univision-ott-live.akamaized.net/tvn_hls/chunklist.m3u8
+#EXTINF:-1 tvg-id="Mega" tvg-name="Mega" tvg-logo="https://i.imgur.com/abc456.png",Mega
+https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
+#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevisión",Chilevisión
+https://live.chilevision.cl/stream/stream.m3u8
+"""
 
-def get_pluto_channels():
-    """Obtiene canales de Pluto TV API"""
+def setup_logger():
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[logging.StreamHandler()]
+    )
+    return logging.getLogger(__name__)
+
+logger = setup_logger()
+
+def fetch_chile_playlist():
+    """Obtiene listas M3U de fuentes chilenas"""
+    for source in CHILE_SOURCES:
+        try:
+            response = requests.get(source, timeout=10)
+            response.raise_for_status()
+            
+            # Filtra solo canales chilenos (por si la lista es mixta)
+            content = "\n".join(
+                line for line in response.text.split('\n') 
+                if 'tvg-country="CL"' in line or 'tvg-id="CL_' in line or not line.startswith('#EXT')
+            )
+            
+            return content or response.text  # Devuelve filtrado o original
+            
+        except Exception as e:
+            logger.warning(f"Fuente {source} falló: {str(e)}")
+    return None
+
+def save_playlist(content):
+    """Guarda la playlist con validación"""
     try:
-        response = requests.get(
-            'https://api.pluto.tv/v3/channels',
-            timeout=15
-        )
-        response.raise_for_status()
-        return response.json().get('data', [])
-    except Exception as e:
-        logger.error(f'Error al obtener canales: {e}')
-        return []
-
-def generate_m3u():
-    """Genera archivo M3U"""
-    channels = get_pluto_channels()
-    if not channels:
-        raise ValueError('No se obtuvieron canales')
-    
-    m3u_content = ['#EXTM3U']
-    
-    for channel in channels:
-        channel_id = channel.get('_id', '')
-        name = channel.get('name', 'Sin nombre')
-        url = f'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{channel_id}/master.m3u8?deviceId=web'
+        with open(PLAYLIST_PATH, 'w', encoding='utf-8') as f:
+            f.write(content)
         
-        m3u_content.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}",{name}')
-        m3u_content.append(url)
-    
-    # Guardar archivo
-    with open(PLAYLIST_PATH, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(m3u_content))
-    
-    logger.info(f'Playlist generada con {len(channels)} canales')
+        # Verificación
+        line_count = len(content.split('\n'))
+        logger.info(f"Playlist guardada con {line_count} líneas")
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error guardando playlist: {str(e)}")
+        return False
 
 if __name__ == '__main__':
-    try:
-        generate_m3u()
-    except Exception as e:
-        logger.error(f'Error fatal: {e}')
+    logger.info("=== Obteniendo canales chilenos ===")
+    
+    # 1. Intenta con fuentes en línea
+    playlist = fetch_chile_playlist()
+    
+    # 2. Si falla, usa canales de respaldo
+    if not playlist:
+        logger.warning("Usando lista de respaldo")
+        playlist = BACKUP_CHANNELS
+    
+    # 3. Guarda y verifica
+    if save_playlist(playlist):
+        logger.info("✅ Proceso completado")
+        exit(0)
+    else:
+        logger.error("❌ Fallo crítico")
         exit(1)
- 
