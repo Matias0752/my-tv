@@ -27,9 +27,12 @@ jobs:
         run: python scripts/update_playlist.py
         
       - name: Commit and push changes
+         env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token automático de GitHub
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add canales.m3u
-          git commit -m "🔄 Actualización automática M3U - $(date +'%d/%m/%Y %H:%M')"
-          git push
+             git config --global user.name "GitHub Actions"
+             git config --global user.email "actions@github.com"
+             git add canales.m3u
+             git commit -m "🔄 Actualización automática M3U - $(date +'%d/%m/%Y %H:%M')"
+             git pull --rebase  # Evita conflictos
+             git push origin HEAD:main
