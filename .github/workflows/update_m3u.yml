@@ -24,7 +24,11 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python3 ./scripts/update_playlist.py  # ¡Cambio clave aquí!
+        run: |
+        echo "📌 Directorio actual: $(pwd)"
+        echo "📋 Contenido de scripts/:"
+        ls -la scripts/
+        python3 ./scripts/update_playlist.py  # ¡Cambio clave aquí!
         
       - name: Commit and push changes
         env:
