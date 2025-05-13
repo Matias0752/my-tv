@@ -11,30 +11,26 @@ jobs:
     env:
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-    
+
     steps:
       - uses: actions/checkout@v4
-        
+
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-          
+
       - name: Instalar dependencias
-        run: pip install requests
-        
+        run: pip install -r requirements.txt
+
       - name: Copiar listas locales
         run: |
-             mkdir -p mis_canales
-             cp "mis canales"/*.m3u mis_canales/
+          mkdir -p mis_canales
+          cp "mis canales"/*.m3u mis_canales/
 
-          
       - name: Ejecutar actualizador
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python3 -m scripts.actualizador
-        
+
       - name: Subir cambios
         env:
           GH_TOKEN: ${{ github.token }}
@@ -42,6 +38,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add canales_chile.m3u
-          git commit -m "🔄 Actualización M3U [skip ci]"
+          git commit -m "🔄 Actualización M3U [skip ci]" || echo "Sin cambios"
           git pull --rebase
           git push
