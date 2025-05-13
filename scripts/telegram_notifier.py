@@ -26,7 +26,6 @@ class TelegramNotifier:
             return False
 
 def send_file(token, chat_id, file_path):
-    """Envía archivo M3U actualizado"""
     try:
         with open(file_path, 'rb') as f:
             files = {'document': f}
