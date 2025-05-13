@@ -848,7 +848,7 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8?Playl
 https://mitv.zplay.cl/Ztv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="1585" tvg-name="AniRetro" tvg-logo="https://cdn.m3u.cl/logo/1585_AniRetro.png", AniRetro ✪ | CL
 https://tv.streaming-chile.com:19360/8068/8068.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="499" tvg-name="Telesur" tvg-logo="https://cdn.m3u.cl/logo/499_Telesur.png", Telesur | VE
-https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="499" tvg-name="Kpop Tv" tvg-logo="https://play-lh.googleusercontent.com/ADrXQf8XcyzEP8zd77F9AN5m-SX1GhPXqqvRBjgT2zmSqkwVm5LIBg_cLv0vHuHXZ38=w240-h480-rw", Kpop TV | BR
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanade.cl" tvg-logo="https://static.kanade.cl/assets/img/profilepic_512px.png" group-title="Animation;Entertainment",Kanade (1080p)
 https://streaming-cl.sh1ny.space/memfs/0e41fc31-9f44-46d4-8712-0446e2f3dcaa.m3u8
