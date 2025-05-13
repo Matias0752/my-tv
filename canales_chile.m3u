@@ -81,28 +81,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13891.ts
 #EXTINF:-1 tvg-id="ESPNCHI CL" tvg-name="CL: ESPN HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",CL: ESPN HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/31.ts
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/espn4ab.png?raw=true" group-title="Deportes",ESPN 4
-http://tv.teleclub.xyz/club/server_1/deportes/espn4/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/espn5.png?raw=true" group-title="Deportes",ESPN 5
-http://tv.teleclub.xyz/club/server_1/deportes/espn5/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/espn6.png?raw=true" group-title="Deportes",ESPN 6
-http://tv.teleclub.xyz/club/server_1/deportes/espn6/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/espn7.png?raw=true" group-title="Deportes",ESPN 7
-http://tv.teleclub.xyz/club/server_1/deportes/espn7/index.m3u8
-#EXTINF:-1 tvg-id="NODATA" tvg-name="Claro Sports" tvg-logo="" group-title=" ⭐️ Deportes",Claro Sports
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14028.ts
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/dazn1.png?raw=true?raw=true" group-title="Deportes",DAZN 1
-http://tv.teleclub.xyz/club/server_1/deportes/dazn1/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/dazn2.png?raw=true" group-title="Deportes",DAZN 2
-http://tv.teleclub.xyz/club/server_1/deportes/dazn2/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/daznf1.jpg?raw=true" group-title="Deportes",DAZN 3
-http://tv.teleclub.xyz/club/server_1/deportes/dazn3/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/daznf1.jpg?raw=true" group-title="Deportes",DAZN F1
-http://tv.teleclub.xyz/club/server_1/deportes/daznf1/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/liga1max.png?raw=true" group-title="Deportes",DAZN La Liga
-http://tv.teleclub.xyz/club/server_1/deportes/daznlaliga/index.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/teleclubxyz/teleclub/blob/main/liga1max.png?raw=true" group-title="Deportes",DAZN Moto GP
-http://tv.teleclub.xyz/club/server_1/deportes/daznmotogp/index.m3u8
 #EXTINF:-1 tvg-id="NODATA" tvg-name="DE: SKY SPORT F1" tvg-logo="" group-title=" ⭐️ Deportes",DE: SKY SPORT F1
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14898.ts
 #EXTINF:-1 tvg-id="CL DIRECTV SPORTS" tvg-name="DirecTV Sports" tvg-logo="http://logos.iptv.wtf/deportes/directvsports.png" group-title=" ⭐️ Deportes",DirecTV Sports
