@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import shutil
 import logging
+import requests
 from pathlib import Path
 from datetime import datetime
 from .telegram_notifier import TelegramNotifier, send_file
@@ -10,8 +11,8 @@ CONFIG = {
     'source_dir': Path("mis_canales"),
     'output_file': Path("canales_chile.m3u"),
     'telegram': {
-        'token': "TU_TOKEN_BOT",  # Reemplázalo
-        'chat_id': "TU_CHAT_ID"   # Reemplázalo
+        'token': "TU_TOKEN_BOT",  # Reemplázalo por tu token real
+        'chat_id': "TU_CHAT_ID"   # Reemplázalo por tu chat_id real
     }
 }
 
@@ -43,6 +44,27 @@ def generate_report(input_file, output_file):
 📝 <b>Canales totales:</b> {line_count//2}
 📦 <b>Tamaño generado:</b> {output_file.stat().st_size/1024:.1f} KB"""
 
+def verificar_links(file_path, notifier):
+    errores = []
+    with open(file_path) as f:
+        for i, line in enumerate(f, 1):
+            line = line.strip()
+            if line.startswith("http"):
+                try:
+                    response = requests.head(line, timeout=5)
+                    if response.status_code >= 400:
+                        errores.append((i, line, response.status_code))
+                except Exception as e:
+                    errores.append((i, line, str(e)))
+
+    if errores:
+        mensaje = "<b>⚠️ Links M3U con error:</b>\n\n"
+        for i, url, error in errores[:10]:  # Limita a 10 para evitar spam
+            mensaje += f"{i}. <code>{url}</code>\n└ Error: {error}\n\n"
+        if len(errores) > 10:
+            mensaje += f"... y {len(errores)-10} más."
+        notifier.send(mensaje)
+
 def main():
     logger = setup()
     notifier = TelegramNotifier(CONFIG['telegram']['token'], CONFIG['telegram']['chat_id'])
@@ -54,12 +76,15 @@ def main():
         # Copiar archivo
         shutil.copy2(latest_m3u, CONFIG['output_file'])
         logger.info(f"Archivo copiado: {latest_m3u} → {CONFIG['output_file']}")
+
+        # Verificar enlaces M3U
+        verificar_links(CONFIG['output_file'], notifier)
         
         # Generar reporte
         report = generate_report(latest_m3u, CONFIG['output_file'])
         logger.info(report)
         
-        # Notificar
+        # Notificar por Telegram
         notifier.send(report)
         send_file(
             CONFIG['telegram']['token'],
