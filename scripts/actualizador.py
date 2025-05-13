@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-import os
 import shutil
 import logging
 import requests
 from pathlib import Path
 from datetime import datetime
+import os
+
 from scripts.telegram_notifier import TelegramNotifier, send_file
 
-# Configuración
 CONFIG = {
     'source_dir': Path("mis_canales"),
     'output_file': Path("canales_chile.m3u"),
@@ -37,9 +37,7 @@ def get_latest_m3u(source_dir):
 def generate_report(input_file, output_file):
     with open(input_file) as f:
         line_count = sum(1 for line in f if line.strip())
-
     return f"""📡 <b>Actualización Lista IPTV</b>
-
 📅 <i>{datetime.now().strftime('%d/%m/%Y %H:%M')}</i>
 📂 <b>Archivo fuente:</b> {input_file.name}
 📝 <b>Canales totales:</b> {line_count//2}
@@ -55,22 +53,29 @@ def verificar_links(file_path, notifier):
                     response = requests.head(line, timeout=5)
                     if response.status_code >= 400:
                         errores.append((i, line, response.status_code))
-                        logging.warning(f"Canal {i} ({line}) no disponible: {response.status_code}")
+                        logging.warning(f"Canal en línea {i} ({line}) no disponible: {response.status_code}")
                 except Exception as e:
                     errores.append((i, line, str(e)))
-                    logging.warning(f"Canal {i} ({line}) no disponible: {str(e)}")
+                    logging.warning(f"Canal en línea {i} ({line}) no disponible: {str(e)}")
 
     if errores:
         mensaje = "<b>⚠️ Links M3U con error:</b>\n\n"
         for i, url, error in errores[:10]:
             mensaje += f"{i}. <code>{url}</code>\n└ Error: {error}\n\n"
         if len(errores) > 10:
-            mensaje += f"... y {len(errores) - 10} más."
+            mensaje += f"... y {len(errores)-10} más."
         notifier.send(mensaje)
 
 def main():
     logger = setup()
-    notifier = TelegramNotifier(CONFIG['telegram']['token'], CONFIG['telegram']['chat_id'])
+    token = CONFIG['telegram']['token']
+    chat_id = CONFIG['telegram']['chat_id']
+
+    if not token or not chat_id:
+        logger.error("TELEGRAM_TOKEN o TELEGRAM_CHAT_ID no están definidos.")
+        return
+
+    notifier = TelegramNotifier(token, chat_id)
 
     try:
         logger.info("=== INICIANDO ACTUALIZACIÓN ===")
@@ -85,11 +90,7 @@ def main():
         logger.info(report)
 
         notifier.send(report)
-        send_file(
-            CONFIG['telegram']['token'],
-            CONFIG['telegram']['chat_id'],
-            CONFIG['output_file']
-        )
+        send_file(token, chat_id, CONFIG['output_file'])
 
     except Exception as e:
         error_msg = f"❌ <b>ERROR:</b> {str(e)}"
