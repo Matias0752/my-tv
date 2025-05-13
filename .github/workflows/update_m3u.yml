@@ -25,8 +25,9 @@ jobs:
         
       - name: Copiar listas locales
         run: |
-          mkdir -p mis_canales
-          cp path/to/your/lists/*.m3u mis_canales/
+             mkdir -p mis_canales
+             cp "mis canales"/*.m3u mis_canales/
+
           
       - name: Ejecutar actualizador
         env:
