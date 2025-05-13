@@ -54,9 +54,14 @@ def verificar_links(file_path, notifier):
                     response = requests.head(line, timeout=5)
                     if response.status_code >= 400:
                         errores.append((i, line, response.status_code))
+                        # Aquí solo lo registramos, pero no interrumpimos el flujo
+                        logging.warning(f"Canal en línea {i} ({line}) no disponible: {response.status_code}")
                 except Exception as e:
                     errores.append((i, line, str(e)))
+                    # Lo mismo aquí, solo se salta el error
+                    logging.warning(f"Canal en línea {i} ({line}) no disponible: {str(e)}")
 
+    # Opcional: si hay errores, notificamos
     if errores:
         mensaje = "<b>⚠️ Links M3U con error:</b>\n\n"
         for i, url, error in errores[:10]:  # Limita a 10 para evitar spam
@@ -77,7 +82,7 @@ def main():
         shutil.copy2(latest_m3u, CONFIG['output_file'])
         logger.info(f"Archivo copiado: {latest_m3u} → {CONFIG['output_file']}")
 
-        # Verificar enlaces M3U
+        # Verificar enlaces M3U (y saltar los no disponibles sin detener el proceso)
         verificar_links(CONFIG['output_file'], notifier)
         
         # Generar reporte
