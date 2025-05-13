@@ -5,15 +5,15 @@ import requests
 from pathlib import Path
 from datetime import datetime
 import os
+from .telegram_notifier import TelegramNotifier, send_file
 
-from scripts.telegram_notifier import TelegramNotifier, send_file
-
+# Configuración
 CONFIG = {
     'source_dir': Path("mis_canales"),
     'output_file': Path("canales_chile.m3u"),
     'telegram': {
-        'token': os.environ.get("TELEGRAM_TOKEN"),
-        'chat_id': os.environ.get("TELEGRAM_CHAT_ID")
+        'token': os.getenv("TELEGRAM_TOKEN"),
+        'chat_id': os.getenv("TELEGRAM_CHAT_ID")
     }
 }
 
@@ -37,11 +37,13 @@ def get_latest_m3u(source_dir):
 def generate_report(input_file, output_file):
     with open(input_file) as f:
         line_count = sum(1 for line in f if line.strip())
+    
     return f"""📡 <b>Actualización Lista IPTV</b>
+    
 📅 <i>{datetime.now().strftime('%d/%m/%Y %H:%M')}</i>
 📂 <b>Archivo fuente:</b> {input_file.name}
-📝 <b>Canales totales:</b> {line_count//2}
-📦 <b>Tamaño generado:</b> {output_file.stat().st_size/1024:.1f} KB"""
+📝 <b>Canales totales:</b> {line_count // 2}
+📦 <b>Tamaño generado:</b> {output_file.stat().st_size / 1024:.1f} KB"""
 
 def verificar_links(file_path, notifier):
     errores = []
@@ -60,19 +62,20 @@ def verificar_links(file_path, notifier):
 
     if errores:
         mensaje = "<b>⚠️ Links M3U con error:</b>\n\n"
-        for i, url, error in errores[:10]:
+        for i, url, error in errores[:10]:  # Limita a 10
             mensaje += f"{i}. <code>{url}</code>\n└ Error: {error}\n\n"
         if len(errores) > 10:
-            mensaje += f"... y {len(errores)-10} más."
+            mensaje += f"... y {len(errores) - 10} más."
         notifier.send(mensaje)
 
 def main():
     logger = setup()
+
     token = CONFIG['telegram']['token']
     chat_id = CONFIG['telegram']['chat_id']
 
     if not token or not chat_id:
-        logger.error("TELEGRAM_TOKEN o TELEGRAM_CHAT_ID no están definidos.")
+        logger.error("❌ TELEGRAM_TOKEN o TELEGRAM_CHAT_ID no están configurados.")
         return
 
     notifier = TelegramNotifier(token, chat_id)
