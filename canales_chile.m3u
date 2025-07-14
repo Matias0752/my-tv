@@ -192,9 +192,6 @@ https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="1393" tvg-name="La Melinkana TV" tvg-logo="https://cdn.m3u.cl/logo/1393_La_Melinkana_TV.png", La Melinkana TV | CL
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="NODATA" tvg-name="DirecTv Sports HD (Chile) *" tvg-logo="http://logos.iptv.wtf/deportes/directvsports.png" group-title=" ⭐️ Deportes",DirecTv Sports HD (Chile) *
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14796.ts
-
 #EXTINF:-1 tvg-id="CL DIRECTV SPORTS PLUS" tvg-name="DirecTV Sports Plus" tvg-logo="http://logos.iptv.wtf/deportes/directvsportsplus.png" group-title=" ⭐️ Deportes",DirecTV Sports Plus
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/44.ts
 
