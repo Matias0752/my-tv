@@ -25,7 +25,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
 #EXTINF:-1 tvg-id="0105" tvg-name="Mega" tvg-logo="http://logos.iptv.wtf/chile/mega.png" group-title=" ⭐️Chile Nacionales HD", CL: Mega 
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
+http://38.250.127.17:9800/play/a066/index.m3u8
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
