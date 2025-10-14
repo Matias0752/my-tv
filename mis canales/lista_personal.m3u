@@ -15,6 +15,9 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
+http://38.250.127.17:9800/play/a0a7/index.m3u8
+
 #EXTINF:-1 tvg-id="1674" tvg-name="Chile Informa" tvg-logo="https://cdn.m3u.cl/logo/1674_Chile_Informa.png", Chile Informa ✪ | CL
 http://45.225.95.154:8081/mcg/chileinforma/playlist.m3u8?PlaylistM3UCL
 
@@ -24,8 +27,11 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
-#EXTINF:-1 tvg-id="0105" tvg-name="Mega" tvg-logo="http://logos.iptv.wtf/chile/mega.png" group-title=" ⭐️Chile Nacionales HD", CL: Mega 
+#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-chno="72" group-title="Nacional",MEGA HD
 http://38.250.127.17:9800/play/a066/index.m3u8
+
+#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F" tvg-chno="71" group-title="Nacional",MEGA 2 HD F
+http://38.250.127.17:9800/play/a0ai/index.m3u8
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
@@ -44,6 +50,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14880.ts
 
 #EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
+
+#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama" tvg-chno="67" group-title="Nacional",Kanal D Drama
+http://38.250.127.17:9800/play/a076/index.m3u8
 
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
@@ -126,8 +135,8 @@ https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="1393" tvg-name="La Melinkana TV" tvg-logo="https://cdn.m3u.cl/logo/1393_La_Melinkana_TV.png", La Melinkana TV | CL
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="CL DIRECTV SPORTS PLUS" tvg-name="DirecTV Sports Plus" tvg-logo="http://logos.iptv.wtf/deportes/directvsportsplus.png" group-title=" ⭐️ Deportes",DirecTV Sports Plus
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/44.ts
+#EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",ESPN Full HD
+http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13567.ts
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN 2 Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espn2hd.png" group-title=" ⭐️ Deportes",ESPN 2 Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13568.ts
@@ -135,8 +144,14 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13568.ts
 #EXTINF:-1 tvg-id="CL ESPN3" tvg-name="ESPN 3 HD" tvg-logo="http://logos.iptv.wtf/deportes/espn3hd.png" group-title=" ⭐️ Deportes",ESPN 3 HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3480.ts
 
-#EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",ESPN Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13567.ts
+#EXTINF:-1 tvg-id="ESPN_4_HD" tvg-name="ESPN 4 HD" tvg-chno="41" group-title="Nacional",ESPN 4 HD
+http://38.250.127.17:9800/play/a05l/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN_5_HD" tvg-name="ESPN 5 HD" tvg-chno="42" group-title="Nacional",ESPN 5 HD
+http://38.250.127.17:9800/play/a06f/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN_6_HD" tvg-name="ESPN 6 HD" tvg-chno="43" group-title="Nacional",ESPN 6 HD
+http://38.250.127.17:9800/play/a05n/index.m3u8
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
@@ -148,7 +163,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14881.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14885.ts
 
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/9528.ts
+http://38.250.127.17:9800/play/a085/index.m3u8
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="Discovery Kids Full HD *" tvg-logo="http://logos.iptv.wtf/infantiles/discoverykids.png" group-title=" ⭐️Infantiles",Discovery Kids Full HD *
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/124.ts
@@ -158,6 +173,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/8986.ts
 
 #EXTINF:-1 tvg-id="MX NICK" tvg-name="Nick Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/nick.png" group-title=" ⭐️Infantiles",Nick Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
+
+#EXTINF:-1 tvg-id="PAKA_PAKA_F" tvg-name="PAKA PAKA F" tvg-chno="80" group-title="Nacional",PAKA PAKA F
+http://38.250.127.17:9800/play/a0am/index.m3u8
 
 #EXTINF:-1 tvg-id="AnimeOnegai" tvg-name="Anime Onegai Full HD" tvg-logo="" group-title=" ⭐️Infantiles",AnimeOnegai Full HD
 https://d2se29pyn6ypkx.cloudfront.net/v1/master/964e44f31073da95414e409f230fb47a468175f5/6469fafa-ca3b-40cd-b903-ab9c3eeea757/6469fafa-ca3b-40cd-b903-ab9c3eeea757/playlist.m3u8
