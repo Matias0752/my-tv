@@ -172,7 +172,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
 http://38.250.127.17:9800/play/a0am/index.m3u8
 
 #EXTINF:-1 tvg-id="AnimeOnegai" tvg-name="Anime Onegai Full HD" tvg-logo="" group-title=" ⭐️Infantiles",AnimeOnegai Full HD
-https://d2se29pyn6ypkx.cloudfront.net/v1/master/964e44f31073da95414e409f230fb47a468175f5/6469fafa-ca3b-40cd-b903-ab9c3eeea757/6469fafa-ca3b-40cd-b903-ab9c3eeea757/playlist.m3u8
+https://stream-us-east-1.getpublica.com/cl/251016d3o7m44sicbuap6rpib0/1280x720_1900800_0_f.m3u8?i=586_11057
 
 #EXTINF:-1 tvg-id="1604" tvg-name="ZTV Anime" tvg-logo="https://cdn.m3u.cl/logo/1604_ZTV_Anime.png", ZTV Anime ✪ | CL
 https://mitv.zplay.cl/Ztv/index.m3u8?PlaylistM3UCL
