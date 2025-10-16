@@ -15,6 +15,9 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
+EXTINF:-1 tvg-id="Agricultura Tv" tvg-name="AGRICULTURA TV" group-title="Nacional",AGRICULTURA TV
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8?did=b2120440375968f080b57b352
+
 #EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
 http://38.250.127.17:9800/play/a0a7/index.m3u8
 
@@ -152,6 +155,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/124.ts
 
 #EXTINF:-1 tvg-id="DISNEYJR CL" tvg-name="Disney Jr HD" tvg-logo="http://logos.iptv.wtf/infantiles/disneyjr.png" group-title=" ⭐️Infantiles",Disney Jr HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/8986.ts
+
+#EXTINF:-1 tvg-id="DISNEY_HD" tvg-name="Disney HD" tvg-chno="36" group-title="Nacional",Disney HD
+http://38.250.127.17:9800/play/a068/index.m3u8
 
 #EXTINF:-1 tvg-id="MX NICK" tvg-name="Nick Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/nick.png" group-title=" ⭐️Infantiles",Nick Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
