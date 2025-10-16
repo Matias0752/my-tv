@@ -71,6 +71,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 #EXTINF:-1 tvg-id="VIAX2 CL" tvg-name="CL: Via X 2" tvg-logo="https://logos.iptv.wtf/chile/viax2.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X 2
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13889.ts
 
+#EXTINF:-1 tvg-id="Via X Esports" tvg-name="Via X Esports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQ2coqUc8z6ox1MvjhM76lLrOZTpntkXKQA&s", Via X Esports
+http://38.250.127.17:9800/play/a07l/index.m3u8
+
 #EXTINF:-1 tvg-id="802" tvg-name="TV UCT" tvg-logo="https://cdn.m3u.cl/logo/802_TV_UCT.png", TV UCT | CL
 https://unlimited2-cl-isp.dps.live/uct/uct.smil/playlist.m3u8?PlaylistM3UCL
 
