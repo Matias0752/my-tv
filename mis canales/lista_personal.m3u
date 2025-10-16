@@ -138,6 +138,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14885.ts
 #EXTINF:-1 tvg-id="Energeek tv" tvg-name="Energeek" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek tv
 https://cdn.energeek.cl/hls/energeekfan.m3u8
 
+#EXTINF:-1 tvg-id="Energeek Retro" tvg-name="Energeek Retro" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/5/58/Energeek_Retro_2025_logo.png/revision/latest/scale-to-width-down/250?cb=20250517233915&path-prefix=es", Energeek Retro
+https://cdn.energeek.cl/hls/energeekretro.m3u8
+
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
 http://38.250.127.17:9800/play/a085/index.m3u8
 
