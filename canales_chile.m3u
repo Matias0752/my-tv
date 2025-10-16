@@ -162,6 +162,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/124.ts
 #EXTINF:-1 tvg-id="DISNEYJR CL" tvg-name="Disney Jr HD" tvg-logo="http://logos.iptv.wtf/infantiles/disneyjr.png" group-title=" ⭐️Infantiles",Disney Jr HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/8986.ts
 
+#EXTINF:-1 tvg-id="NICK_HD" tvg-name="Nick HD" tvg-chno="78" group-title="Nacional",Nick HD
+http://38.250.127.17:9800/play/a06m/index.m3u8
+
 #EXTINF:-1 tvg-id="MX NICK" tvg-name="Nick Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/nick.png" group-title=" ⭐️Infantiles",Nick Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
 
