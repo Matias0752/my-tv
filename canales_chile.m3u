@@ -15,8 +15,11 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
-EXTINF:-1 tvg-id="Agricultura Tv" tvg-name="AGRICULTURA TV" group-title="Nacional",AGRICULTURA TV
+#EXTINF:-1 tvg-id="Agricultura Tv" tvg-name="AGRICULTURA TV" group-title="Nacional",AGRICULTURA TV
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8?did=b2120440375968f080b57b352
+
+#EXTINF:-1 tvg-id="Pauta Tv" tvg-name="Pauta Tv" group-title="Nacional",Pauta Tv
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8?did=b299506234368f08c472da62
 
 #EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
 http://38.250.127.17:9800/play/a0a7/index.m3u8
