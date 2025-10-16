@@ -150,6 +150,9 @@ https://cdn.energeek.cl/hls/energeekretro.m3u8
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
 http://38.250.127.17:9800/play/a085/index.m3u8
 
+#EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png", Disney Channel
+http://38.250.127.17:9800/play/a068/index.m3u8
+
 #EXTINF:-1 tvg-id="NODATA" tvg-name="Discovery Kids Full HD *" tvg-logo="http://logos.iptv.wtf/infantiles/discoverykids.png" group-title=" ⭐️Infantiles",Discovery Kids Full HD *
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/124.ts
 
