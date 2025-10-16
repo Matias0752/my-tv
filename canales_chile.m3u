@@ -51,6 +51,9 @@ https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?PlaylistM3UC
 #EXTINF:-1 tvg-id="1152" tvg-name="UCV 2" tvg-logo="https://cdn.m3u.cl/logo/1152_UCV_2.png", UCV 2 | CL
 https://unlimited1-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/playlist.m3u8?PlaylistM3UCL
 
+#EXTINF:-1 tvg-id="CANAL_13_2_HD_F" tvg-name="Canal 13.2 HD F" tvg-chno="9" group-title="Nacional",CANAL 13.2 HD F
+http://38.250.127.17:9800/play/a0aj/index.m3u8
+
 #EXTINF:-1 tvg-id="RECTV CL" tvg-name="CL: Rec TV" tvg-logo="http://logos.iptv.wtf/chile/rectv.png" group-title=" ⭐️Chile Nacionales HD", CL: Rec TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14880.ts
 
@@ -161,6 +164,9 @@ http://38.250.127.17:9800/play/a06m/index.m3u8
 
 #EXTINF:-1 tvg-id="PAKA_PAKA_F" tvg-name="PAKA PAKA F" tvg-chno="80" group-title="Nacional",PAKA PAKA F
 http://38.250.127.17:9800/play/a0am/index.m3u8
+
+#EXTINF:-1 tvg-id="EpicToon" tvg-name="EpicToon" group-title="Nacional",EpicToon TV HD
+https://sc1.wasidata.com/CartoonsPrime/video.m3u8?token=vibra060425
 
 #EXTINF:-1 tvg-id="Energeek Tv" tvg-name="Energeek Tv" group-title="Nacional",Energeek Tv
 https://cdn.energeek.cl/hls/energeekretro.m3u8
