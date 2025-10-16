@@ -15,6 +15,9 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Pauta Tv" tvg-name="Pauta TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Pauta_FM_logo_2018.png/revision/latest?cb=20210719025834&path-prefix=es" group-title=" ⭐️Chile Nacionales HD", Pauta TV
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8?did=b290884205568f12652197df
+
 #EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
 http://38.250.127.17:9800/play/a0a7/index.m3u8
 
@@ -81,6 +84,9 @@ https://v2.tustreaming.cl:443/catvlive/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="5dd7ea2aeab5230009986735" tvg-name="canal del caballo" tvg-logo="https://images.pluto.tv/channels/5dd7ea2aeab5230009986735/colorLogoPNG.png" group-title="Películas" tvg-chno="39", Canal del Caballo 
 https://stream.canaldelcaballo.cl/video/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1 tvg-id="SurTv" tvg-name="SurTv" tvg-logo="https://www.surtv.cl/imagenes/logo.png", SurTv
+https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/surtv/surtv.smil/playlist.m3u8?dpssid=b263735134968f12b752d19f&sid=ba5t1l1xb2141540707768f12b9610e30&ndvc=0
+
 
 #EXTINF:-1 tvg-id="75" tvg-name="VoxPopuli Chile" tvg-logo="https://cdn.m3u.cl/logo/75_VoxPopuli_Chile.png", VoxPopuli Chile | CL
 https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8?PlaylistM3UCL
@@ -130,6 +136,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14881.ts
 #EXTINF:-1 tvg-id="TNTSPORTS2FIX CL" tvg-name="TNT Sports 2 **" tvg-logo="https://logos.iptv.wtf/deportes/tntsports2.png" group-title=" ⭐️ Deportes",TNT Sports 2 **
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14885.ts
 
+#EXTINF:-1 tvg-id="Energeek tv" tvg-name="Energeek" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek tv
+https://cdn.energeek.cl/hls/energeekfan.m3u8
+
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
 http://38.250.127.17:9800/play/a085/index.m3u8
 
@@ -150,6 +159,9 @@ http://38.250.127.17:9800/play/a0am/index.m3u8
 
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
 https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MaxAnime" tvg-name="MaxAnime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", MaxAnime
+https://streamlov.alsolnet.com/maxanime/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1604" tvg-name="ZTV Anime" tvg-logo="https://cdn.m3u.cl/logo/1604_ZTV_Anime.png", ZTV Anime ✪ | CL
 https://mitv.zplay.cl/Ztv/index.m3u8?PlaylistM3UCL
