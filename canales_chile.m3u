@@ -15,7 +15,7 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
+#EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español"  group-title="Nacional",CNN Español
 http://38.250.127.17:9800/play/a0a7/index.m3u8
 
 #EXTINF:-1 tvg-id="1674" tvg-name="Chile Informa" tvg-logo="https://cdn.m3u.cl/logo/1674_Chile_Informa.png", Chile Informa ✪ | CL
@@ -27,10 +27,10 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
-#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-chno="72" group-title="Nacional",MEGA HD
+#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F" tvg-chno="71" group-title="Nacional",MEGA 2 HD F
+#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F"  group-title="Nacional",MEGA 2 HD F
 http://38.250.127.17:9800/play/a0ai/index.m3u8
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
@@ -51,7 +51,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14880.ts
 #EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
 
-#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama" tvg-chno="67" group-title="Nacional",Kanal D Drama
+#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama" group-title="Nacional",Kanal D Drama
 http://38.250.127.17:9800/play/a076/index.m3u8
 
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
