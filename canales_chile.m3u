@@ -96,12 +96,6 @@ https://v2.tustreaming.cl/canallocalcl/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="75" tvg-name="VoxPopuli Chile" tvg-logo="https://cdn.m3u.cl/logo/75_VoxPopuli_Chile.png", VoxPopuli Chile | CL
 https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="76" tvg-name="Canal 2 de San Antonio" tvg-logo="https://cdn.m3u.cl/logo/76_Canal_2_de_San_Antonio.png", Canal 2 de San Antonio | CL
-https://unlimited1-cl-isp.dps.live/canal2/canal2.smil/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-id="1607" tvg-name="Santa Cruz HD" tvg-logo="https://cdn.m3u.cl/logo/1607_Santa_Cruz_HD.png", Santa Cruz HD | CL
-https://eu1.servers10.com:8081/8378/index.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 tvg-id="1432" tvg-name="El Centro TV" tvg-logo="https://cdn.m3u.cl/logo/1432_El_Centro_TV.jpg", El Centro TV | CL
 https://v1.tustreaming.cl:443/diarioelcentrotv/index.m3u8?PlaylistM3UCL
 
@@ -111,20 +105,8 @@ https://unlimited2-cl-isp.dps.live/cm/cm.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="350" tvg-name="ClickTv" tvg-logo="https://cdn.m3u.cl/logo/350_ClickTv.png", ClickTv | CL
 https://v2.tustreaming.cl/clicktv/index.m3u8?PlaylistM3UC
 
-#EXTINF:-1 tvg-id="174" tvg-name="VP Televisión" tvg-logo="https://cdn.m3u.cl/logo/174_VP_Television.png", VP Televisión | CL
-https://v1.tustreaming.cl:19360/vozdepoder/vozdepoder.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Kids;Religious",Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
-
-#EXTINF:-1 tvg-id="353" tvg-name="Canal 9 Bío Bí­o TV" tvg-logo="https://cdn.m3u.cl/logo/353_Canal_9_Bio_Bi­o_TV.png", Canal 9 Bío Bí­o TV | CL
-https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-id="358" tvg-name="TecTV" tvg-logo="https://cdn.m3u.cl/logo/358_TecTV.png", TecTV | CL
-https://tectv.ngrok.app/hls/stream.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-id="1469" tvg-name="TV Canal 5" tvg-logo="https://cdn.m3u.cl/logo/1469_TV_Canal_5.png", TV Canal 5 | CL
-https://vdochile.com:3317/stream/play.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="1299" tvg-name="Lanco TV" tvg-logo="https://cdn.m3u.cl/logo/1299_Lanco_TV.png", Lanco TV | CL
 https://5e3483cba9114.streamlock.net:443/hfvhxfwxjm/hfvhxfwxjm/playlist.m3u8?PlaylistM3UCL
@@ -174,11 +156,14 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/8986.ts
 #EXTINF:-1 tvg-id="MX NICK" tvg-name="Nick Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/nick.png" group-title=" ⭐️Infantiles",Nick Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
 
+#EXTINF:-1 tvg-id="NICK_HD" tvg-name="Nick HD" tvg-chno="78" group-title="Nacional",Nick HD
+http://38.250.127.17:9800/play/a06m/index.m3u8
+
 #EXTINF:-1 tvg-id="PAKA_PAKA_F" tvg-name="PAKA PAKA F" tvg-chno="80" group-title="Nacional",PAKA PAKA F
 http://38.250.127.17:9800/play/a0am/index.m3u8
 
-#EXTINF:-1 tvg-id="AnimeOnegai" tvg-name="Anime Onegai Full HD" tvg-logo="" group-title=" ⭐️Infantiles",AnimeOnegai Full HD
-https://d2se29pyn6ypkx.cloudfront.net/v1/master/964e44f31073da95414e409f230fb47a468175f5/6469fafa-ca3b-40cd-b903-ab9c3eeea757/6469fafa-ca3b-40cd-b903-ab9c3eeea757/playlist.m3u8
+#EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
+https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1604" tvg-name="ZTV Anime" tvg-logo="https://cdn.m3u.cl/logo/1604_ZTV_Anime.png", ZTV Anime ✪ | CL
 https://mitv.zplay.cl/Ztv/index.m3u8?PlaylistM3UCL
