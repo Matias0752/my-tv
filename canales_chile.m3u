@@ -114,9 +114,6 @@ https://v1.tustreaming.cl:19360/vozdepoder/vozdepoder.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Kids;Religious",Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 
-#EXTINF:-1 tvg-id="353" tvg-name="Canal 9 Bío Bí­o TV" tvg-logo="https://cdn.m3u.cl/logo/353_Canal_9_Bio_Bi­o_TV.png", Canal 9 Bío Bí­o TV | CL
-https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 tvg-id="1299" tvg-name="Lanco TV" tvg-logo="https://cdn.m3u.cl/logo/1299_Lanco_TV.png", Lanco TV | CL
 https://5e3483cba9114.streamlock.net:443/hfvhxfwxjm/hfvhxfwxjm/playlist.m3u8?PlaylistM3UCL
 
@@ -146,6 +143,9 @@ http://38.250.127.17:9800/play/a05n/index.m3u8
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
+
+#EXTINF:-1 tvg-id="WIN_SPORTS_PLUS_HD" tvg-name="Win Sports+ HD" tvg-chno="109" group-title="Nacional",Win Sports+ HD
+http://38.250.127.17:9800/play/a0ac/index.m3u8
 
 #EXTINF:-1 tvg-id="TNTSPORTSFIX CL" tvg-name="TNT Sports **" tvg-logo="https://logos.iptv.wtf/deportes/tntsportshd.png" group-title=" ⭐️ Deportes",TNT Sports **
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14881.ts
