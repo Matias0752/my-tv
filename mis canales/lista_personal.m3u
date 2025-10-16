@@ -19,7 +19,7 @@ https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8?did=b290884205568f12652197df
 
 #EXTINF:-1 tvg-id="Agricultura Tv" tvg-name="Agricultura Tv" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/9/99/Agricultura_TV.svg/revision/latest?cb=20230310052358", Agricultura Tv
-https://jireh-1-hls-audio-cl-isp.dps.live/hls-audio/bfdec2347a82df9cd5d34ffdd11df6f3/agricultura/playlist/manifest/gotardisz/audio/now/livestream1.m3u8
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8?did=b2128795004368f1452b65019
 
 #EXTINF:-1 tvg-id="CNN_ESPANOL" tvg-name="CNN Español" tvg-chno="14" group-title="Nacional",CNN Español
 http://38.250.127.17:9800/play/a0a7/index.m3u8
