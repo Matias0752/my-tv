@@ -63,8 +63,12 @@ http://38.250.127.17:9800/play/a076/index.m3u8
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
 
+#EXTINF:-1 tvg-id="TVMAS_2_HD_F" tvg-name="TV+ 2 HD F" tvg-chno="98" group-title="Nacional",TV+2 HD F
+http://38.250.127.17:9800/play/a07e/index.m3u8
+
 #EXTINF:-1 tvg-id="27" tvg-name="Carolina TV" tvg-logo="https://cdn.m3u.cl/logo/27_Carolina_TV.png", Carolina TV | CL
 https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?uid=uDRJZZXcsIE5YArll5VtsrMIrWPOW5Nv&sid=6DjkaJwpjVJwdWQV6Bc4qh3gkQvJociO&pid=GeL8qrBI9tKkYCSN3trqDdorW0AnMfSB&pid_dvr=1Mth2MvqmBboFo8FVcAvkadqggZ5Zw1B&an=screen&at=web-app&av=v6.0.213&ref=https%3A%2F%2Fwww.carolina.cl%2F&res=823x463&without_cookies=false&listenerid=&dnt=true
+
 #EXTINF:-1 tvg-id="VIAX CL" tvg-name="CL: Via X" tvg-logo="https://logos.iptv.wtf/chile/viax.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 
