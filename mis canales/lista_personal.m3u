@@ -78,12 +78,6 @@ https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowi
 #EXTINF:-1 tvg-id="1312" tvg-name="Eternal Metal" tvg-logo="https://cdn.m3u.cl/logo/1312_Eternal_Metal.png", Eternal Metal ✪ | CL
 https://stmv7.voxtvhd.com.br/eternaltv/eternaltv/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rock_FM_Logo_2024.svg/2560px-Rock_FM_Logo_2024.svg.png", Rock FM
-https://www.youtube.com/watch?v=Nt27aBceerI
-
-#EXTINF:-1 tvg-logo="https://www.nuclearblast.com/cdn/shop/files/NB-Logo-Skull_lightsteel_330x.jpg", Nuclear Blast
-https://www.youtube.com/watch?v=3LWMFjRZQ6k
-
 #EXTINF:-1 tvg-id="VIAX CL" tvg-name="CL: Via X" tvg-logo="https://logos.iptv.wtf/chile/viax.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 
@@ -156,9 +150,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
 
 #EXTINF:-1 tvg-id="TNTSPORTSFIX CL" tvg-name="TNT Sports **" tvg-logo="https://logos.iptv.wtf/deportes/tntsportshd.png" group-title=" ⭐️ Deportes",TNT Sports **
 http://38.250.127.17:9800/play/a06g/index.m3u8
-
-#EXTINF:-1 tvg-id="TNTSPORTS2FIX CL" tvg-name="TNT Sports 2 **" tvg-logo="https://logos.iptv.wtf/deportes/tntsports2.png" group-title=" ⭐️ Deportes",TNT Sports 2 **
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14885.ts
 
 #EXTINF:-1 tvg-id="Energeek tv" tvg-name="Energeek" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek tv
 https://cdn.energeek.cl/hls/energeekfan.m3u8
