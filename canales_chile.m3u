@@ -34,7 +34,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
 #EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-chno="72" group-title="Nacional",MEGA HD
-http://38.250.127.17:9800/play/a066/index.m3u8
+http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
 #EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F" tvg-chno="71" group-title="Nacional",MEGA 2 HD F
 http://38.250.127.17:9800/play/a0ai/index.m3u8
@@ -121,8 +121,8 @@ https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #EXTINF:-1 tvg-id="1299" tvg-name="Lanco TV" tvg-logo="https://cdn.m3u.cl/logo/1299_Lanco_TV.png", Lanco TV | CL
 https://5e3483cba9114.streamlock.net:443/hfvhxfwxjm/hfvhxfwxjm/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="368" tvg-name="ISB TV" tvg-logo="https://cdn.m3u.cl/logo/368_Santa_Maria_TV.png", ISB TV | CL
-https://unlimited2-cl-isp.dps.live/isb/isb.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="368" tvg-name="Santa Maria TV" tvg-logo="https://cdn.m3u.cl/logo/368_Santa_Maria_TV.png", Santa Maria TV | CL
+https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="1393" tvg-name="La Melinkana TV" tvg-logo="https://cdn.m3u.cl/logo/1393_La_Melinkana_TV.png", La Melinkana TV | CL
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
