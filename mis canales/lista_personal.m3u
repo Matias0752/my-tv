@@ -54,6 +54,9 @@ https://unlimited1-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/playlist.m3u8?
 #EXTINF:-1 tvg-id="RECTV CL" tvg-name="CL: Rec TV" tvg-logo="http://logos.iptv.wtf/chile/rectv.png" group-title=" ⭐️Chile Nacionales HD", CL: Rec TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14880.ts
 
+#EXTINF:-1 tvg-id="1698" tvg-name="La Comarca TV" tvg-logo="https://cdn.m3u.cl/logo/1698_La_Comarca_TV.png", La Comarca TV ✪ | CL
+https://v2.tustreaming.cl/lcomarcatv/index.m3u8?PlaylistM3UCL
+
 #EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
 
@@ -68,6 +71,12 @@ http://38.250.127.17:9800/play/a07e/index.m3u8
 
 #EXTINF:-1 tvg-id="27" tvg-name="Carolina TV" tvg-logo="https://cdn.m3u.cl/logo/27_Carolina_TV.png", Carolina TV | CL
 https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?uid=uDRJZZXcsIE5YArll5VtsrMIrWPOW5Nv&sid=6DjkaJwpjVJwdWQV6Bc4qh3gkQvJociO&pid=GeL8qrBI9tKkYCSN3trqDdorW0AnMfSB&pid_dvr=1Mth2MvqmBboFo8FVcAvkadqggZ5Zw1B&an=screen&at=web-app&av=v6.0.213&ref=https%3A%2F%2Fwww.carolina.cl%2F&res=823x463&without_cookies=false&listenerid=&dnt=true
+
+#EXTINF:-1 tvg-id="1127" tvg-name="Carolina TV 2" tvg-logo="https://cdn.m3u.cl/logo/1127_Carolina_TV_2.png", Carolina TV 2 | CL
+https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-id="1312" tvg-name="Eternal Metal" tvg-logo="https://cdn.m3u.cl/logo/1312_Eternal_Metal.png", Eternal Metal ✪ | CL
+https://stmv7.voxtvhd.com.br/eternaltv/eternaltv/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="VIAX CL" tvg-name="CL: Via X" tvg-logo="https://logos.iptv.wtf/chile/viax.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
