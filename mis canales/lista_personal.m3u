@@ -166,9 +166,6 @@ https://cdn.energeek.cl/hls/energeekfan.m3u8
 #EXTINF:-1 tvg-id="Energeek Retro" tvg-name="Energeek Retro" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/5/58/Energeek_Retro_2025_logo.png/revision/latest/scale-to-width-down/250?cb=20250517233915&path-prefix=es", Energeek Retro
 https://cdn.energeek.cl/hls/energeekretro.m3u8
 
-#EXTINF:-1 tvg-id="31Minutos247" tvg-name="ESTAMOS AL AIRE: Gran MARATÓN Gran de 31 MINUTOS" tvg-logo="https://i.ytimg.com/vi/_yiC7ZYkSkI/maxresdefault.jpg" group-title="24/7", ESTAMOS AL AIRE: Gran MARATÓN Gran de 31 MINUTOS
-https://www.youtube.com/watch?v=_yiC7ZYkSkI
-
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
 http://38.250.127.17:9800/play/a085/index.m3u8
 
