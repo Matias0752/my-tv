@@ -34,7 +34,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
 #EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-chno="72" group-title="Nacional",MEGA HD
-https://acortar.link/JwZCyo
+http://38.250.127.17:9800/play/a066/index.m3u8
 
 #EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F" tvg-chno="71" group-title="Nacional",MEGA 2 HD F
 http://38.250.127.17:9800/play/a0ai/index.m3u8
