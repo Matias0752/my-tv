@@ -78,6 +78,12 @@ https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowi
 #EXTINF:-1 tvg-id="1312" tvg-name="Eternal Metal" tvg-logo="https://cdn.m3u.cl/logo/1312_Eternal_Metal.png", Eternal Metal ✪ | CL
 https://stmv7.voxtvhd.com.br/eternaltv/eternaltv/playlist.m3u8?PlaylistM3UCL
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rock_FM_Logo_2024.svg/2560px-Rock_FM_Logo_2024.svg.png", Rock FM
+https://www.youtube.com/watch?v=Nt27aBceerI
+
+#EXTINF:-1 tvg-logo="https://www.nuclearblast.com/cdn/shop/files/NB-Logo-Skull_lightsteel_330x.jpg", Nuclear Blast
+https://www.youtube.com/watch?v=3LWMFjRZQ6k
+
 #EXTINF:-1 tvg-id="VIAX CL" tvg-name="CL: Via X" tvg-logo="https://logos.iptv.wtf/chile/viax.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 
@@ -121,8 +127,8 @@ https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #EXTINF:-1 tvg-id="1299" tvg-name="Lanco TV" tvg-logo="https://cdn.m3u.cl/logo/1299_Lanco_TV.png", Lanco TV | CL
 https://5e3483cba9114.streamlock.net:443/hfvhxfwxjm/hfvhxfwxjm/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="368" tvg-name="Santa Maria TV" tvg-logo="https://cdn.m3u.cl/logo/368_Santa_Maria_TV.png", Santa Maria TV | CL
-https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="368" tvg-name="ISB" tvg-logo="https://www.canalisb.cl/imagenes/logo_isb.png", ISB San Bernardo | CL
+https://unlimited2-cl-isp.dps.live/isb/isb.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1393" tvg-name="La Melinkana TV" tvg-logo="https://cdn.m3u.cl/logo/1393_La_Melinkana_TV.png", La Melinkana TV | CL
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
@@ -160,6 +166,9 @@ https://cdn.energeek.cl/hls/energeekfan.m3u8
 #EXTINF:-1 tvg-id="Energeek Retro" tvg-name="Energeek Retro" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/5/58/Energeek_Retro_2025_logo.png/revision/latest/scale-to-width-down/250?cb=20250517233915&path-prefix=es", Energeek Retro
 https://cdn.energeek.cl/hls/energeekretro.m3u8
 
+#EXTINF:-1 tvg-id="31Minutos247" tvg-name="ESTAMOS AL AIRE: Gran MARATÓN Gran de 31 MINUTOS" tvg-logo="https://i.ytimg.com/vi/_yiC7ZYkSkI/maxresdefault.jpg" group-title="24/7", ESTAMOS AL AIRE: Gran MARATÓN Gran de 31 MINUTOS
+https://www.youtube.com/watch?v=_yiC7ZYkSkI
+
 #EXTINF:-1 tvg-id="CL CARTOON NETWORK" tvg-name="Cartoon Network Full HD" tvg-logo="http://logos.iptv.wtf/infantiles/cartoonnetwork.png" group-title=" ⭐️Infantiles",Cartoon Network Full HD
 http://38.250.127.17:9800/play/a085/index.m3u8
 
@@ -183,9 +192,6 @@ http://38.250.127.17:9800/play/a0am/index.m3u8
 
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
 https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 2 HD
-https://live20.bozztv.com/giatv/giatv-livestreamingtv/livestreamingtv/chunks.m3u8
 
 #EXTINF:-1 tvg-id="MaxAnime" tvg-name="MaxAnime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", MaxAnime
 https://streamlov.alsolnet.com/maxanime/live/playlist.m3u8
