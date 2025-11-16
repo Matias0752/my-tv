@@ -78,12 +78,6 @@ https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowi
 #EXTINF:-1 tvg-id="1312" tvg-name="Eternal Metal" tvg-logo="https://cdn.m3u.cl/logo/1312_Eternal_Metal.png", Eternal Metal ✪ | CL
 https://stmv7.voxtvhd.com.br/eternaltv/eternaltv/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rock_FM_Logo_2024.svg/2560px-Rock_FM_Logo_2024.svg.png", Rock FM
-https://www.youtube.com/watch?v=Nt27aBceerI
-
-#EXTINF:-1 tvg-logo="https://www.nuclearblast.com/cdn/shop/files/NB-Logo-Skull_lightsteel_330x.jpg", Nuclear Blast
-https://www.youtube.com/watch?v=3LWMFjRZQ6k
-
 #EXTINF:-1 tvg-id="VIAX CL" tvg-name="CL: Via X" tvg-logo="https://logos.iptv.wtf/chile/viax.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 
