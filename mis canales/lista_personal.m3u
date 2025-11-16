@@ -69,6 +69,9 @@ https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274
 #EXTINF:-1 tvg-id="TVMAS_2_HD_F" tvg-name="TV+ 2 HD F" tvg-chno="98" group-title="Nacional",TV+2 HD F
 http://38.250.127.17:9800/play/a07e/index.m3u8
 
+#EXTINF:-1 tvg-id="rockfm.it" tvg-name="Rock FM It Rock!" tvg-logo="https://s-cache.s3.cloudworks.ro/rockfm/media-manager/2024/04/08/rockfm-inverted_20240408_162811_egjobrng.svg" group-title="Radio",Rock FM It Rock!
+https://rockfm-cope.flumotion.com/playlist.m3u8
+
 #EXTINF:-1 tvg-id="27" tvg-name="Carolina TV" tvg-logo="https://cdn.m3u.cl/logo/27_Carolina_TV.png", Carolina TV | CL
 https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?uid=uDRJZZXcsIE5YArll5VtsrMIrWPOW5Nv&sid=6DjkaJwpjVJwdWQV6Bc4qh3gkQvJociO&pid=GeL8qrBI9tKkYCSN3trqDdorW0AnMfSB&pid_dvr=1Mth2MvqmBboFo8FVcAvkadqggZ5Zw1B&an=screen&at=web-app&av=v6.0.213&ref=https%3A%2F%2Fwww.carolina.cl%2F&res=823x463&without_cookies=false&listenerid=&dnt=true
 
