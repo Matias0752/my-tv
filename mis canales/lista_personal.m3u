@@ -33,10 +33,10 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
-#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-chno="72" group-title="Nacional",MEGA HD
+#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F" tvg-chno="71" group-title="Nacional",MEGA 2 HD F
+#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA 2 HD F"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Mega_2_2022.svg/revision/latest?cb=20230120022851&path-prefix=es"  tvg-chno="71" group-title="Nacional",MEGA 2 HD F
 http://38.250.127.17:9800/play/a0ai/index.m3u8
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
@@ -60,7 +60,7 @@ https://v2.tustreaming.cl/lcomarcatv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
 
-#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama" tvg-chno="67" group-title="Nacional",Kanal D Drama
+#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama"  tvg-logo="https://play-lh.googleusercontent.com/2RBfJmyGv71Ixit-XfaQcAcZAruOAoZfj3D6ntxGyLB3ohDWvFLUKfm3w2N4dUI3uA=w526-h296-rw" tvg-chno="67" group-title="Nacional",Kanal D Drama
 http://38.250.127.17:9800/play/a076/index.m3u8
 
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
