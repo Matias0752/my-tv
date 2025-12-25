@@ -123,6 +123,9 @@ https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8?Pl
 #EXTINF:-1 tvg-id="1432" tvg-name="El Centro TV" tvg-logo="https://cdn.m3u.cl/logo/1432_El_Centro_TV.jpg", El Centro TV | CL
 https://v1.tustreaming.cl:443/diarioelcentrotv/index.m3u8?PlaylistM3UCL
 
+#EXTINF:-1 tvg-id="1626" tvg-name="C y G TV" tvg-logo="https://cdn.m3u.cl/logo/1626_C_y_G_TV.png", C y G TV | CL
+https://tv.telselec.cl:3254/live/cygtvlive.m3u8?PlaylistM3UCL
+
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Kids;Religious",Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 
