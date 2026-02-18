@@ -7,7 +7,7 @@ https://janus-tv-ply.senado.cl/playlist/playlist.m3u8?PlaylistM3UCL
 https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="BIO-BIO TV" tvg-name="CL: BIO-BIO TV" tvg-logo="https://play-lh.googleusercontent.com/tvBCAxfquk5_tDS0Qqjo2U2N70PR3vbzDCO3bdIWwDoCSn_sF3KljNhbGPq_GpCPSkc" group-title=" ⭐️Chile Nacionales HD", CL: BIO-BIO TV
-https://jireh-3-hls-video-cl-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/bbtv/livestream2/chunks.m3u8?dpssid=b2161309934966eaed5420b49&sid=ba5t1l1xb233589974466eaed55014bc&ndvc=0|User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F128.0.0.0%20Safari%2F537.36&Referer=https%3A%2F%2Frudo.video%2F
+https://jireh-11-hls-video-cl-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?dpssid=b2157523396569963087cc3ba&sid=ba5t1l1xb2149041215269963088abde9&ndvc=0
 
 #EXTINF:-1 tvg-id="1054" tvg-name="T13" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png", T13 ✪ | CL
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?PlaylistM3UCL
@@ -111,7 +111,7 @@ https://v2.tustreaming.cl/tevex/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="437" tvg-name="Campo Abierto TV" tvg-logo="https://cdn.m3u.cl/logo/437_Campo_Abierto_TV.png", Campo Abierto TV | CL
 https://v2.tustreaming.cl:443/catvlive/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="5dd7ea2aeab5230009986735" tvg-name="canal del caballo" tvg-logo="https://images.pluto.tv/channels/5dd7ea2aeab5230009986735/colorLogoPNG.png" group-title="Películas" tvg-chno="39", Canal del Caballo 
+#EXTINF:-1 tvg-id="5dd7ea2aeab5230009986735" tvg-name="canal del caballo" tvg-logo="https://canaldelcaballo.cl/wp-content/uploads/elementor/thumbs/04-rh81dammm3i9t50m59pvrqk69yh0e2z5fuz7ek8ayo.png" group-title="Películas" tvg-chno="39", Canal del Caballo 
 https://stream.canaldelcaballo.cl/video/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="SurTv" tvg-name="SurTv" tvg-logo="https://www.surtv.cl/imagenes/logo.png", SurTv
@@ -124,7 +124,7 @@ https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8?Pl
 https://v1.tustreaming.cl:443/diarioelcentrotv/index.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="1626" tvg-name="C y G TV" tvg-logo="https://cdn.m3u.cl/logo/1626_C_y_G_TV.png", C y G TV | CL
-https://tv.telselec.cl:3254/live/cygtvlive.m3u8?PlaylistM3UCL
+https://tv.arkeo.cl:19360/8158/81
 
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Kids;Religious",Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
