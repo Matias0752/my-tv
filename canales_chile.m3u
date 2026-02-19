@@ -137,13 +137,13 @@ https://unlimited2-cl-isp.dps.live/isb/isb.smil/playlist.m3u8
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",ESPN Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13567.ts
+http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/31.ts
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN 2 Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espn2hd.png" group-title=" ⭐️ Deportes",ESPN 2 Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13568.ts
 
 #EXTINF:-1 tvg-id="CL ESPN3" tvg-name="ESPN 3 HD" tvg-logo="http://logos.iptv.wtf/deportes/espn3hd.png" group-title=" ⭐️ Deportes",ESPN 3 HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3480.ts
+http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 
 #EXTINF:-1 tvg-id="ESPN_4_HD" tvg-name="ESPN 4 HD" tvg-chno="41" group-title="Nacional",ESPN 4 HD
 http://38.250.127.17:9800/play/a05l/index.m3u8
