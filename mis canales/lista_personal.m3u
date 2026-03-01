@@ -93,8 +93,8 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13888.ts
 #EXTINF:-1 tvg-id="VIAX2 CL" tvg-name="CL: Via X 2" tvg-logo="https://logos.iptv.wtf/chile/viax2.png" group-title=" ⭐️Chile Nacionales HD", CL: Via X 2
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13889.ts
 
-#EXTINF:-1 tvg-id="Via X Esports" tvg-name="Via X Esports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQ2coqUc8z6ox1MvjhM76lLrOZTpntkXKQA&s", Via X Esports
-http://38.250.127.17:9800/play/a07l/index.m3u8
+#EXTINF:-1 tvg-id="Rock Fm" tvg-name="Rock FM" tvg-logo="https://s-cache.s3.cloudworks.ro/rockfm/media-manager/2024/04/08/rockfm-inverted_20240408_162811_egjobrng.svg", Rock FM
+https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
 #EXTINF:-1 tvg-id="1466" tvg-name="Kanade TV" tvg-logo="https://cdn.m3u.cl/logo/1466_Kanade_TV.png", Kanade TV ✪ | CL
 https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
@@ -147,12 +147,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 
 #EXTINF:-1 tvg-id="ESPN_4_HD" tvg-name="ESPN 4 HD" tvg-chno="41" group-title="Nacional",ESPN 4 HD
 http://38.250.127.17:9800/play/a05l/index.m3u8
-
-#EXTINF:-1 tvg-id="ESPN_5_HD" tvg-name="ESPN 5 HD" tvg-chno="42" group-title="Nacional",ESPN 5 HD
-http://38.250.127.17:9800/play/a06f/index.m3u8
-
-#EXTINF:-1 tvg-id="ESPN_6_HD" tvg-name="ESPN 6 HD" tvg-chno="43" group-title="Nacional",ESPN 6 HD
-http://38.250.127.17:9800/play/a05n/index.m3u8
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
