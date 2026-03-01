@@ -96,6 +96,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13889.ts
 #EXTINF:-1 tvg-id="Rock Fm" tvg-name="Rock FM" tvg-logo="https://s-cache.s3.cloudworks.ro/rockfm/media-manager/2024/04/08/rockfm-inverted_20240408_162811_egjobrng.svg", Rock FM
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
+#EXTINF:-1 tvg-id="EnerGeekRadio.cl@SD",EnerGeek Radio (1080p)
+https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
+
 #EXTINF:-1 tvg-id="1466" tvg-name="Kanade TV" tvg-logo="https://cdn.m3u.cl/logo/1466_Kanade_TV.png", Kanade TV ✪ | CL
 https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
 
@@ -138,7 +141,8 @@ https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD",PRIDEtv LATAM (1080p)
 https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 
-
+#EXTINF:-1 tvg-id="VClassicTV.cl@SD",V Classic TV (720p)
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",ESPN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/31.ts
