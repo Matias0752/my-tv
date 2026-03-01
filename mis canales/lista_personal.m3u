@@ -141,6 +141,10 @@ https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD",PRIDEtv LATAM (1080p)
 https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 
+#EXTINF:-1 tvg-id="XtremaAccion.ar@SD",Xtrema Accion
+#EXTVLCOPT:http-referrer=https://xtrematv.com/?p=1434
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+
 #EXTINF:-1 tvg-id="VClassicTV.cl@SD",V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 
