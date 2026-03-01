@@ -123,18 +123,22 @@ https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8?Pl
 #EXTINF:-1 tvg-id="1432" tvg-name="El Centro TV" tvg-logo="https://cdn.m3u.cl/logo/1432_El_Centro_TV.jpg", El Centro TV | CL
 https://v1.tustreaming.cl:443/diarioelcentrotv/index.m3u8?PlaylistM3UCL
 
-
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Kids;Religious",Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 
-#EXTINF:-1 tvg-id="1299" tvg-name="Lanco TV" tvg-logo="https://cdn.m3u.cl/logo/1299_Lanco_TV.png", Lanco TV | CL
-https://5e3483cba9114.streamlock.net:443/hfvhxfwxjm/hfvhxfwxjm/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="SantaMariaTelevision.cl@SD",Santa María Televisión (720p) [Not 24/7]
+https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="368" tvg-name="ISB" tvg-logo="https://www.canalisb.cl/imagenes/logo_isb.png", ISB San Bernardo | CL
 https://unlimited2-cl-isp.dps.live/isb/isb.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1393" tvg-name="La Melinkana TV" tvg-logo="https://cdn.m3u.cl/logo/1393_La_Melinkana_TV.png", La Melinkana TV | CL
 https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD",PRIDEtv LATAM (1080p)
+https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
+
+
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Full HD" tvg-logo="http://logos.iptv.wtf/deportes/espnhd.png" group-title=" ⭐️ Deportes",ESPN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/31.ts
@@ -177,9 +181,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/3310.ts
 
 #EXTINF:-1 tvg-id="NICK_HD" tvg-name="Nick HD" tvg-chno="78" group-title="Nacional",Nick HD
 http://38.250.127.17:9800/play/a06m/index.m3u8
-
-#EXTINF:-1 tvg-id="PAKA_PAKA_F" tvg-name="PAKA PAKA F" tvg-chno="80" group-title="Nacional",PAKA PAKA F
-http://38.250.127.17:9800/play/a0am/index.m3u8
 
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
 https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
