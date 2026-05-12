@@ -57,8 +57,8 @@ https://v2.tustreaming.cl/lcomarcatv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
 
-#EXTINF:-1 tvg-id="KANAL_D_DRAMA" tvg-name="Kanal D Drama"  tvg-logo="https://play-lh.googleusercontent.com/2RBfJmyGv71Ixit-XfaQcAcZAruOAoZfj3D6ntxGyLB3ohDWvFLUKfm3w2N4dUI3uA=w526-h296-rw" tvg-chno="67" group-title="Nacional",Kanal D Drama
-http://38.250.127.17:9800/play/a076/index.m3u8
+#EXTINF:-1 tvg-id="Cine Western" tvg-name="Cine Western"  tvg-logo="https://play-lh.googleusercontent.com/2RBfJmyGv71Ixit-XfaQcAcZAruOAoZfj3D6ntxGyLB3ohDWvFLUKfm3w2N4dUI3uA=w526-h296-rw" tvg-chno="67", Cine Western
+https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8
 
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
@@ -141,7 +141,8 @@ https://v1.tustreaming.cl/melinkana/index.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD",PRIDEtv LATAM (1080p)
 https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 
-#EXTINF:-1 tvg-id="XtremaAccion.ar@SD",Xtrema Accion
+#EXTINF:-1 tvg-id="ENERGEEK",EnerGeek Tv
+https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH
 
 #EXTINF:-1 tvg-id="VClassicTV.cl@SD",V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
@@ -158,7 +159,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
 
-#EXTINF:-1 tvg-id="Energeek tv" tvg-name="Energeek" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek tv
+#EXTINF:-1 tvg-id="Energeek Fan" tvg-name="Energeek Fan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek Fan tv
 https://cdn.energeek.cl/hls/energeekfan.m3u8
 
 #EXTINF:-1 tvg-id="Energeek Retro" tvg-name="Energeek Retro" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/5/58/Energeek_Retro_2025_logo.png/revision/latest/scale-to-width-down/250?cb=20250517233915&path-prefix=es", Energeek Retro
@@ -167,10 +168,22 @@ https://cdn.energeek.cl/hls/energeekretro.m3u8
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
 https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MaxAnime" tvg-name="MaxAnime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", MaxAnime
-https://streamlov.alsolnet.com/maxanime/live/playlist.m3u8
+#EXTINF:-1 tvg-name="AnimeVision" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" ,AnimeStation 1 HD 
+https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
 
-#EXTINF:-1 tvg-id="1604" tvg-name="ZTV Anime" tvg-logo="https://cdn.m3u.cl/logo/1604_ZTV_Anime.png", ZTV Anime ✪ | CL
-https://mitv.zplay.cl/Ztv/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="BBC SERIES" tvg-name="BBC SERIES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", BBC Series
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nature Time" tvg-name="Nature Time" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", Nature time
+https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Todo Novelas" tvg-name="Todo Novelas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", Todo Novelas
+https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
+
+#EXTINF:-1 tvg-id="Cine Friki" tvg-name="Cine Friki" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Max_Anime_Logo.png", Cine Friki
+https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8
+
+#EXTINF:-1 tvg-id="1604" tvg-name="Anime Classic" tvg-logo="https://cdn.m3u.cl/logo/1604_ZTV_Anime.png", Anime Classic
+https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
 
 
