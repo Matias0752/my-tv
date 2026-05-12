@@ -33,7 +33,8 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 #EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="MEGA_2_HD_F" tvg-name="MEGA HD"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Mega_2_2022.svg/revision/latest?cb=20230120022851&path-prefix=es"  tvg-chno="71" group-title="Nacional",MEGA 2 HD F
+#EXTINF:-1 tvg-id="DW" tvg-name="DW HD"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/960px-Deutsche_Welle_Logo.svg.png",DW HD F
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
