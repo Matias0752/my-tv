@@ -99,8 +99,8 @@ https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 #EXTINF:-1 tvg-id="EnerGeekRadio.cl@SD",EnerGeek Radio (1080p)
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
 
-#EXTINF:-1 tvg-id="1466" tvg-name="Kanade TV" tvg-logo="https://cdn.m3u.cl/logo/1466_Kanade_TV.png", Kanade TV ✪ | CL
-https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
+#EXTINF:-1 tvg-id="1466" tvg-name="VC MEDIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8aT7lk8Vjnrc9cGW_mLBu4LVcaPNlo1zFg&s", VC TV | CL
+https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
 
 #EXTINF:-1 tvg-id="802" tvg-name="TV UCT" tvg-logo="https://cdn.m3u.cl/logo/802_TV_UCT.png", TV UCT | CL
 https://unlimited2-cl-isp.dps.live/uct/uct.smil/playlist.m3u8?PlaylistM3UCL
