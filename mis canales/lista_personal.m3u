@@ -34,14 +34,14 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 #EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="DW" tvg-name="DW HD"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/960px-Deutsche_Welle_Logo.svg.png",DW HD F
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
-
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
 
 #EXTINF:-1 tvg-id="0107" tvg-name="Canal 13" tvg-logo="https://cdn.m3u.cl/logo/457_Canal_13.png", Canal 13 ✪ | CL
 https://m3u.cl/channel/c13.php?PlaylistM3UCL
+
+#EXTINF:-1 tvg-id="DW" tvg-name="DW HD"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/960px-Deutsche_Welle_Logo.svg.png",DW HD F
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 
 #EXTINF:-1 tvg-id="54" tvg-name="UCV" tvg-logo="https://cdn.m3u.cl/logo/54_UCV.png", UCV | CL
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?PlaylistM3UCL
