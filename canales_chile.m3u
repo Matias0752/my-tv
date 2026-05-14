@@ -13,6 +13,9 @@ https://jireh-11-hls-video-cl-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235
 #EXTINF:-1 tvg-id="1054" tvg-name="T13" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png", T13 ✪ | CL
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?auth-token=&platform=1
 
+#EXTINF:-1 tvg-id="1054" tvg-name="Pura Noticia" tvg-logo="https://puranoticia.pnt.cl/cms/imag/v1/logos/logo_main_white.png", PuraNoticia ✪ | CL
+https://pnt.janus.cl/playlist/stream.m3u8?t=0&q=0&s=&p=&id=mp65ljex&d=w
+
 #EXTINF:-1 tvg-id="1086" tvg-name="ADN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png", ADN TV ✪ | CL
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 
@@ -35,7 +38,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
 https://dai.google.com/linear/hls/pa/event/R6cwOFyHQXaW6-kMcfWYKA/stream/b7e97241-bafa-4cc8-8fc3-d01ab123ebbd:SCL2/master.m3u8
 
 #EXTINF:-1 tvg-id="0107" tvg-name="Canal 13" tvg-logo="https://cdn.m3u.cl/logo/457_Canal_13.png", Canal 13 ✪ | CL
@@ -160,6 +162,9 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
+
+#EXTINF:-1 tvg-id="NODATA" tvg-name="HCD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NchlLGoXOCY-IOg79c8CT6qu9BfrQ4Lg5A&s" group-title=" ⭐️ Deportes",HC DEPORTES
+https://scl.edge.grupoz.cl/transmision/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Energeek Fan" tvg-name="Energeek Fan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfNrEKR73O3lew1Zl_-AqAgt28P1TFdBrTA&s", Energeek Fan tv
 https://cdn.energeek.cl/hls/energeekfan.m3u8
