@@ -64,8 +64,8 @@ https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="458" tvg-name="TV+" tvg-logo="https://cdn.m3u.cl/logo/458_TV_.png", TV+ ✪ | CL
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="TVMAS_2_HD_F" tvg-name="TV+ 2 HD F" tvg-chno="98" group-title="Nacional",TV+2 HD F
-http://38.250.127.17:9800/play/a07e/index.m3u8
+#EXTINF:-1 tvg-id="Click Tv" tvg-name="" tvg-logo="https://clicktvchile.cl/images/196/21542558/LogoClickTvChile-BASo-W0QejeD2lavT6Hs9g-3tnwmQZFHdC8CL2AKtbBrw.png" group-title="Nacional",Click TV
+https://andromeda3.trapemn.tv:1936/Monitoreo_ClickTV/clicktv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="X Level Media" tvg-name="X Level Media" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ-83ihtqgn4RgMhb-byM30AesZirSOSDzfA&s", X Level Media
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
