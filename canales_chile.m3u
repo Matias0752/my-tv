@@ -163,8 +163,6 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/13568.ts
 #EXTINF:-1 tvg-id="CL ESPN3" tvg-name="ESPN 3 HD" tvg-logo="http://logos.iptv.wtf/deportes/espn3hd.png" group-title=" ⭐️ Deportes",ESPN 3 HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/33.ts
 
-#EXTINF:-1 tvg-id="NODATA" tvg-name="ESPN Premium HD" tvg-logo="" group-title=" ⭐️ Deportes",ESPN Premium HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14002.ts
 
 #EXTINF:-1 tvg-id="NODATA" tvg-name="HCD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NchlLGoXOCY-IOg79c8CT6qu9BfrQ4Lg5A&s" group-title=" ⭐️ Deportes",HC DEPORTES
 https://scl.edge.grupoz.cl/transmision/live/playlist.m3u8
