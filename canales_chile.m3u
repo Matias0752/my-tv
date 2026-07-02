@@ -10,7 +10,7 @@ https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8?uid=nJL26I
 #EXTINF:-1 tvg-id="BIO-BIO TV" tvg-name="CL: BIO-BIO TV" tvg-logo="https://play-lh.googleusercontent.com/tvBCAxfquk5_tDS0Qqjo2U2N70PR3vbzDCO3bdIWwDoCSn_sF3KljNhbGPq_GpCPSkc" group-title=" ⭐️Chile Nacionales HD", CL: BIO-BIO TV
 https://jireh-11-hls-video-cl-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?dpssid=b2157523396569963087cc3ba&sid=ba5t1l1xb2149041215269963088abde9&ndvc=0
 
-#EXTINF:-1 tvg-id="1054" tvg-name="T13" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png", T13 ✪ | CL
+#EXTINF:-1 tvg-id="1058" tvg-name="T13" tvg-logo="https://cdn.m3u.cl/logo/1054_T13.png", T13 ✪ | CL
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?auth-token=&platform=1
 
 #EXTINF:-1 tvg-id="1054" tvg-name="Pura Noticia" tvg-logo="https://puranoticia.pnt.cl/cms/imag/v1/logos/logo_main_white.png", PuraNoticia ✪ | CL
@@ -34,13 +34,13 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
-#EXTINF:-1 tvg-id="TVN.cl@SD",TVN (1080p)
+#EXTINF:-1 tvg-id="0104",TVN (1080p)
 http://138.121.15.230:9002/TVN/index.m3u8
 
-#EXTINF:-1 tvg-id="MEGA_HD" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
+#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="MEGA*" tvg-name="MEGA HD*"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Mega_2_2022.svg/revision/latest?cb=20230120022851&path-prefix=es"  tvg-chno="71" group-title="Nacional",MEGA HD 
+#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD*"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Mega_2_2022.svg/revision/latest?cb=20230120022851&path-prefix=es"  tvg-chno="71" group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
@@ -701,10 +701,6 @@ https://jmp2.uk/plu-66b3af1c3a4ad200081c7d03.m3u8
 
 #EXTINF:-1 tvg-id="",Zona Investigación TV (720p)
 https://jmp2.uk/plu-680bdaf54d7cf165c705f91e.m3u8
-
-
-
-
 
 #EXTINF:-1 tvg-id="1604" tvg-name="Anime Classic" tvg-logo="https://i.imgur.com/mTaiEE1.png", Anime Classic
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
