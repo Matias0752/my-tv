@@ -32,9 +32,6 @@ http://45.225.95.154:8081/mcg/chileinforma/playlist.m3u8?PlaylistM3UCL
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
-
-#EXTINF:-1 tvg-id="0104",TVN (1080p)
 http://138.121.15.230:9002/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
