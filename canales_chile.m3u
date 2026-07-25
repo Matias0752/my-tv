@@ -67,7 +67,10 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14880.ts
 #EXTINF:-1 tvg-id="1698" tvg-name="La Comarca TV" tvg-logo="https://cdn.m3u.cl/logo/1698_La_Comarca_TV.png", La Comarca TV ✪ | CL
 https://v2.tustreaming.cl/lcomarcatv/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="ETC CL" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
+#EXTINF:-1 tvg-id="30" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
+http://181.119.93.83:8000/play/a217/index.m3u8
+
+#EXTINF:-1 tvg-id="30" tvg-name="CL: ETC TV" tvg-logo="http://logos.iptv.wtf/chile/etc.png" group-title=" ⭐️Chile Nacionales HD", CL: ETC TV
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/1513.ts
 
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD",Vive Kanal D Drama (1080p)
