@@ -28,14 +28,17 @@ https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274
 #EXTINF:-1 tvg-id="1674" tvg-name="Chile Informa" tvg-logo="https://cdn.m3u.cl/logo/1674_Chile_Informa.png", Chile Informa ✪ | CL
 http://45.225.95.154:8081/mcg/chileinforma/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="LARED CL" tvg-name="La Red" tvg-logo="http://logos.iptv.wtf/chile/lared.png" group-title=" ⭐️Chile Nacionales HD", CL: La Red
+#EXTINF:-1 tvg-id="010" tvg-name="La Red" tvg-logo="http://logos.iptv.wtf/chile/lared.png" group-title=" ⭐️Chile Nacionales HD", CL: La Red
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/10.ts
 
+#EXTINF:-1 tvg-id="010" tvg-name="La Red" tvg-logo="http://logos.iptv.wtf/chile/lared.png" group-title=" ⭐️Chile Nacionales HD", CL: La Red
+http://45.162.193.35/LA_RED/index.m3u8
+
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
+http://45.162.193.35/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
-http://45.162.193.35/TVN/index.m3u8
+http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
