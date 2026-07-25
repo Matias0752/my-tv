@@ -40,7 +40,7 @@ http://138.121.15.230:9002/TVN/index.m3u8
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD*"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Mega_2_2022.svg/revision/latest?cb=20230120022851&path-prefix=es"  tvg-chno="71" group-title="Nacional",MEGA HD 
+#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
 #EXTINF:-1 tvg-id="0106" tvg-name="Chilevision" tvg-logo="http://logos.iptv.wtf/chile/chv.png" group-title=" ⭐️Chile Nacionales HD", CL: CHV Full HD
@@ -49,7 +49,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/5.ts
 #EXTINF:-1 tvg-id="0107" tvg-name="Canal 13" tvg-logo="https://cdn.m3u.cl/logo/457_Canal_13.png", Canal 13 ✪ | CL
 https://m3u.cl/channel/c13.php?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="Canal13.cl@SD",Canal 13 (720p)
+#EXTINF:-1 tvg-id="0107",Canal 13 (720p)
 https://pantera1-100gb-cl-movistar.dps.live/t13radio/t13radio.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DW" tvg-name="DW HD"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/960px-Deutsche_Welle_Logo.svg.png",DW HD F
