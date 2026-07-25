@@ -195,10 +195,10 @@ http://45.162.193.35/TVN/index.m3u8
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/7.ts
 
-#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
+#EXTINF:-1 tvg-id="mega" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
+#http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
+#EXTINF:-1 tvg-id="mega" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
 #EXTINF:-1 tvg-id="LaRed.cl@SD" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="General",La Red (720p)
