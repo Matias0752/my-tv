@@ -23,10 +23,10 @@ https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="27" tvg-name="Carolina TV" tvg-logo="https://cdn.m3u.cl/logo/27_Carolina_TV.png", Carolina TV | CL
-https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?uid=uDRJZZXcsIE5YArll5VtsrMIrWPOW5Nv&sid=6DjkaJwpjVJwdWQV6Bc4qh3gkQvJociO&pid=GeL8qrBI9tKkYCSN3trqDdorW0AnMfSB&pid_dvr=1Mth2MvqmBboFo8FVcAvkadqggZ5Zw1B&an=screen&at=web-app&av=v6.0.213&ref=https%3A%2F%2Fwww.carolina.cl%2F&res=823x463&without_cookies=false&listenerid=&dnt=true
+https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?uid=0ISVdOtkLssbRe7vXlAjfiZobO561iWV&sid=5INrt4F9NatPhhllnSBHyEuiiQpJgS9q&pid=P8M1xAZ5s35la9rexACJt8uKGZH0ZJLP&pid_dvr=8gNqNU4nxqMMhrOkGqr26ELTqG6UroS5&an=screen&at=web-app&av=v7.0.82&ref=https%3A%2F%2Fwww.carolina.cl%2F&res=823x463&without_cookies=false&listenerid=&dnt=true&CMCD=cid%3D%2263a06468117f42713374addd%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22P8M1xAZ5s35la9rexACJt8uKGZH0ZJLP%22%2Csu
 
 #EXTINF:-1 tvg-id="1127" tvg-name="Carolina TV 2" tvg-logo="https://cdn.m3u.cl/logo/1127_Carolina_TV_2.png", Carolina TV 2 | CL
-https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?PlaylistM3UCL
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?did=r1us74757106310603859f39b7a864d74f95b2aabdb6&ndvc=1
 
 #EXTINF:-1 tvg-name="Radio Conquistador" tvg-logo="https://www.elconquistadorfm.net/img/logo.png" group-title="music", Radio Conquistador TV 
 https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/elconquistadortv/elconquistadortv.smil/playlist.m3u8?did=r1us14253273812bce194db3fa3304b4c951811238868f&ndvc=1
@@ -158,8 +158,7 @@ https://pantera1-100gb-cl-movistar.dps.live/teleangol/teleangol.smil/playlist.m3
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
 
 #EXTINF:-1 tvg-name="Radio Romántica TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8b/Marca-radio-romantica.jpg" group-title="music", Radio Romántica TV [CL]
-https://mdstrm.com/live-stream-playlist/63a0674c1137d408b45d4821.m3u8
-
+https://mdstrm.com/live-stream-playlist/63a0674c1137d408b45d4821.m3u8?uid=kkd7wpVutBDuRuDIaAAIwLZv7z3XA4hZ&sid=wwAbPVQcbZqqpQbsGjBKUSBn5jZY1uiH&pid=qos4c1cfobyfovQJvwo36CKeRHy40yv3&pid_dvr=V1uFKsGEARJJPodkAQc6JTeUmHZzdZWN&an=screen&at=web-app&av=v7.0.82&ref=https%3A%2F%2Fwww.romantica.cl%2F&res=800x450&without_cookies=false&listenerid=&dnt=true&CMCD=cid%3D%2263a0674c1137d408b45d4821%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22qos4c1cfobyfovQJvwo36CKeRHy40yv3%22%2Csu
 
 
 
