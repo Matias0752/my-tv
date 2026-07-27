@@ -262,7 +262,7 @@ https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?_=17851274
 http://45.162.193.35/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
-http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
+https://cl-a9-p-e-pt11.cdn.mdstrm.com/live-stream-gdai/53d2c1a32640614e62a0e000/linear/hls/pa/event/TdvXGBreTYyJZiwX63BRIA/stream/1dab7cca-d9f9-4a18-accc-308670e2bb9e:TUL/master.m3u8?aid=53bc2bcae41e2d9c662e1ba7&uid=nCDAidhbb6rkCQDvTWckFfY1y3VlZIWy&sid=SH6CGL0G9vqf83s0hky5AoHc6U1MXEhD&pid=SxPqWN6k0xIlYBeFDANvVRrOLHsVnmwp&pid_dvr=H3RuxaZHLag4zH8uZGyy6fWo7xQv8lii&ref=https%3A%2F%2Fwww.mega.cl%2F&without_cookies=false&listenerid=&dnt=true&access_token=jStIcxR4t2YtnS3aNMytqceuwpIqbiTS08EOJv195HmG3EP5IZVjotepT5yuJhmKljGbrNwQZCr&CMCD=cid%3D%2253d2c1a32640614e62a0e000%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22SxPqWN6k0xIlYBeFDANvVRrOLHsVnmwp%22%2Csu&adInsertionGoogleStreamId=1dab7cca-d9f9-4a18-accc-308670e2bb9e%3ATUL&es=cl-a9-p-e-pt11.cdn.mdstrm.com&ote=1785214909978&ot=FUL3L2gTHpy4clpNraMtaw&proto=https&pz=cl
 
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
