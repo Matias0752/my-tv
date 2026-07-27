@@ -253,10 +253,11 @@ https://origin.dpsgo.com/ssai/event/bFL1IVq9RNGlWQaqgiFuNw/master.m3u8?auth-toke
 
 
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
-http://45.162.193.35/TVN/index.m3u8
+#http://45.162.193.35/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
 https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8?_=1785145028352&dnt=true&player=585a9076c4b653ae71315e55&uid=QHvPDkT7uIsrRlKhDSKjtRcAixFOpa24&sid=3VxH1MjjnVxZDYLRJKZSiJzxy8ppjqFT&pid=l3c4fOknMoFwq8tDi2T1Bb0ti8wkIIaF&an=lightning-player&at=web-app&av=v1.0.90&sc=0&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257d1a22064f5d85712b20dab%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22l3c4fOknMoFwq8tDi2T1Bb0ti8wkIIaF%22%2Csu
+
 #EXTINF:-1 tvg-id="" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg"  group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
