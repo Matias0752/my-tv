@@ -267,7 +267,7 @@ http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
-#EXTINF:-1 tvg-id="CHV" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="Nacional",CHV (720p)
+#EXTINF:-1 tvg-id="CHV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgL34jqOjTFTqQGDC0an56yTJcVt7djRFjn2z1SjpTtR9xNPkspjjvT8&s=10" group-title="Nacional",CHV (720p)
 https://origin.dpsgo.com/ssai/event/R6cwOFyHQXaW6-kMcfWYKA/master.m3u8
 
 #EXTINF:-1 tvg-id="LaRed.cl@SD" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="General",La Red (720p)
