@@ -256,8 +256,7 @@ https://origin.dpsgo.com/ssai/event/bFL1IVq9RNGlWQaqgiFuNw/master.m3u8?auth-toke
 http://45.162.193.35/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?_=1785127478017&dnt=true&player=57f40bb4dc5b9f3075c49cfe&access_token=d1AfNEqdXl5G6CNHKdbALhtELC75T7QN5kCgVTkHo9P26Iax4v3F4Vd0BU2QYB7GiQzC5mxOTcU&uid=YKArHeWF99UyXpz6M71YWiA4snr167SN&sid=1cqN5toZ6cWQq4BJ2NRGtxMdKNfzGxWv&pid=ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg&an=tvn-play-app-lg-tv&at=web-app&av=v1.0.90&sc=0&ds=606b65ac3572d907cd53753b&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg%22%2Csu
-
+https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8?_=1785145028352&dnt=true&player=585a9076c4b653ae71315e55&uid=QHvPDkT7uIsrRlKhDSKjtRcAixFOpa24&sid=3VxH1MjjnVxZDYLRJKZSiJzxy8ppjqFT&pid=l3c4fOknMoFwq8tDi2T1Bb0ti8wkIIaF&an=lightning-player&at=web-app&av=v1.0.90&sc=0&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257d1a22064f5d85712b20dab%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22l3c4fOknMoFwq8tDi2T1Bb0ti8wkIIaF%22%2Csu
 #EXTINF:-1 tvg-id="" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg"  group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
