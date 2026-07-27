@@ -258,10 +258,10 @@ http://45.162.193.35/TVN/index.m3u8
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
 https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?_=1785127478017&dnt=true&player=57f40bb4dc5b9f3075c49cfe&access_token=d1AfNEqdXl5G6CNHKdbALhtELC75T7QN5kCgVTkHo9P26Iax4v3F4Vd0BU2QYB7GiQzC5mxOTcU&uid=YKArHeWF99UyXpz6M71YWiA4snr167SN&sid=1cqN5toZ6cWQq4BJ2NRGtxMdKNfzGxWv&pid=ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg&an=tvn-play-app-lg-tv&at=web-app&av=v1.0.90&sc=0&ds=606b65ac3572d907cd53753b&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg%22%2Csu
 
-#EXTINF:-1 tvg-id="" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
+#EXTINF:-1 tvg-id="" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg"  group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MEGA HD"   tvg-chno="71" group-title="Nacional",MEGA HD 
+#EXTINF:-1 tvg-id="" tvg-name="MEGA HD"    group-title="Nacional",MEGA HD 
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
 #EXTINF:-1 tvg-id="CHV" tvg-logo="https://logos.fandom.com/es/wiki/Chilevisi%C3%B3n?file=Chilevisi%C3%B3n_2018_horizontal.svg" group-title="Nacional",CHV (720p)
