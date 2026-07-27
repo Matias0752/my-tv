@@ -248,16 +248,18 @@ https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
 https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 
 #EXTINF:-1 tvg-id="0107" tvg-name="Canal 13" tvg-logo="https://cdn.m3u.cl/logo/457_Canal_13.png", Canal 13 ✪ | CL
-https://m3u.cl/channel/c13.php?PlaylistM3UCL
+https://origin.dpsgo.com/ssai/event/bFL1IVq9RNGlWQaqgiFuNw/master.m3u8?auth-token=event=bFL1IVq9RNGlWQaqgiFuNw~exp=1785128956~hmac=7f921fa985f1f90503d2215e0586f1105967e7c5d44cca35eb39be81fb94431e
 
 #EXTINF:-1 tvg-id="0107",Canal 13 (720p)
 https://pantera1-100gb-cl-movistar.dps.live/t13radio/t13radio.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="0104" tvg-name="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-2016.png" group-title=" ⭐️Chile Nacionales HD", CL: TVN Full HD
-http://45.162.193.35/TVN/index.m3u8
+https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?_=1785127478017&dnt=true&player=57f40bb4dc5b9f3075c49cfe&access_token=d1AfNEqdXl5G6CNHKdbALhtELC75T7QN5kCgVTkHo9P26Iax4v3F4Vd0BU2QYB7GiQzC5mxOTcU&uid=YKArHeWF99UyXpz6M71YWiA4snr167SN&sid=1cqN5toZ6cWQq4BJ2NRGtxMdKNfzGxWv&pid=ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg&an=tvn-play-app-lg-tv&at=web-app&av=v1.0.90&sc=0&ds=606b65ac3572d907cd53753b&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg%22%2Csu
+
+
 
 #EXTINF:-1 tvg-id="0104",TVN (1080p)
-https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?_=1785127478017&dnt=true&player=57f40bb4dc5b9f3075c49cfe&access_token=d1AfNEqdXl5G6CNHKdbALhtELC75T7QN5kCgVTkHo9P26Iax4v3F4Vd0BU2QYB7GiQzC5mxOTcU&uid=YKArHeWF99UyXpz6M71YWiA4snr167SN&sid=1cqN5toZ6cWQq4BJ2NRGtxMdKNfzGxWv&pid=ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg&an=tvn-play-app-lg-tv&at=web-app&av=v1.0.90&sc=0&ds=606b65ac3572d907cd53753b&ref=mdstrm.com&res=1366x768&ext_pb=0&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ALc6hK5D1vKqvGxrlCVOYOyo04m06nRg%22%2Csu
+http://45.162.193.35/TVN/index.m3u8
 
 #EXTINF:-1 tvg-id="0105" tvg-name="MEGA HD" tvg-logo="https://i.pinimg.com/1200x/3d/ae/b2/3daeb2204400741cf97a0a02ef865bd2.jpg" tvg-chno="72" group-title="Nacional",MEGA HD
 http://live.iptv.wtf:80/live/vzkfqbfm/m8O310eLjb/14868.ts
